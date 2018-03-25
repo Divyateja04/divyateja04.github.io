@@ -1,0 +1,54 @@
+body{
+	margin: 50px;
+	background-image: url(../Images/Bgimage1.jpg);
+	}
+.navbar a{
+	text-decoration: none;
+	color:coral;
+	}
+.navbar a:hover {
+	background-color: aliceblue;
+	border:3px solid black;
+	padding: 5px;
+	transition: all 1s;
+	}
+.heading{
+	background-color: orange;
+	text-align: center;
+	margin: auto;
+	}
+.navbar li{
+	display: inline;
+	background-color: white;
+	border:3px solid white;
+	}
+.navbar ul{
+	text-align: center;
+	}
+#bordernav{
+	border: 5px dashed blue;
+	}
+.Workimg img{
+	height:100px;
+	width:100px;
+	transition: all 1s;
+	}
+.Workimg img:hover{
+	transform: scale(1.1);
+	}
+.Workimgli1 img{
+	transition: all 1s;
+	height:100px;
+	width:250px; 
+	}
+.Workimgli1 img:hover{
+	height:150px;
+	width:300px;
+}
+p{
+	font-family: 'Roboto Slab', serif;font-weight: bolder;
+	}
+#cpyrgtp{
+	font-size: 50px;
+}
+
