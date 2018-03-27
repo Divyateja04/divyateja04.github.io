@@ -20,7 +20,7 @@ ul {
 #sticky-social {
    left: 0;
    position: fixed;
-   top: 150px;
+   top: 300px ;
 }
 #sticky-social a {
    background: #333;
