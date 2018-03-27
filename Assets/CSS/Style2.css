@@ -1,9 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
-/* entypo */
-[class*="entypo-"]:before {
-   font-family: "entypo", sans-serif;
-}
 a { 
    text-decoration: none;
 }
@@ -22,7 +16,7 @@ ul {
    position: fixed;
    top: 300px ;
 }
-#sticky-social a {
+/*#sticky-social a {
    background: #333;
    color: #fff;
    display: block;
@@ -32,7 +26,7 @@ ul {
    position: relative;
    text-align: center;
    width: 35px;
-}
+}*/
 #sticky-social a span {
    line-height: 35px;
    left: -120px;
@@ -43,38 +37,3 @@ ul {
 #sticky-social a:hover span {
    left: 100%;
 }
-#sticky-social a[class*="facebook"],
-#sticky-social a[class*="facebook"]:hover,
-#sticky-social a[class*="facebook"] span { background: #3b5998; }
-
-#sticky-social a[class*="twitter"],
-#sticky-social a[class*="twitter"]:hover,
-#sticky-social a[class*="twitter"] span { background: #00aced; }
-
-#sticky-social a[class*="gplus"],
-#sticky-social a[class*="gplus"]:hover,
-#sticky-social a[class*="gplus"] span { background: #dd4b39; }  
-
-#sticky-social a[class*="linkedin"],
-#sticky-social a[class*="linkedin"]:hover,
-#sticky-social a[class*="linkedin"] span { background: #007bb6; }  
-
-#sticky-social a[class*="instagrem"],
-#sticky-social a[class*="instagrem"]:hover,
-#sticky-social a[class*="instagrem"] span { background: #517fa4; }  
-
-#sticky-social a[class*="stumbleupon"],
-#sticky-social a[class*="stumbleupon"]:hover,
-#sticky-social a[class*="stumbleupon"] span { background: #eb4924; }  
-
-#sticky-social a[class*="pinterest"],
-#sticky-social a[class*="pinterest"]:hover,
-#sticky-social a[class*="pinterest"] span { background: #cc2127; }  
-
-#sticky-social a[class*="flickr"],
-#sticky-social a[class*="flickr"]:hover,
-#sticky-social a[class*="flickr"] span { background: #ff0084; }  
-
-#sticky-social a[class*="tumblr"],
-#sticky-social a[class*="tumblr"]:hover,
-#sticky-social a[class*="tumblr"] span { background: #32506d; }
