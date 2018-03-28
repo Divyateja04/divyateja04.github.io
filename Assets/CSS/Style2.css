@@ -14,26 +14,18 @@ ul {
 #sticky-social {
    left: 0;
    position: fixed;
-   top: 300px ;
+   top: 50%;
+   background-color: lightgrey;
+   border-radius:50px 50px;
 }
-/*#sticky-social a {
-   background: #333;
-   color: #fff;
-   display: block;
-   height: 35px;
-   font: 16px "Open Sans", sans-serif;
-   line-height: 35px;
-   position: relative;
-   text-align: center;
-   width: 35px;
-}*/
-#sticky-social a span {
+
+/*#sticky-social a span {
    line-height: 35px;
    left: -120px;
    position: absolute;
    text-align:center;
    width:120px;
-}
+}*/
 #sticky-social a:hover span {
    left: 100%;
 }

@@ -8,10 +8,13 @@ body{
 	}
 .navbar a:hover {
 	background-color: aliceblue;
-	border:3px solid black;
-	padding: 5px;
-	transition: all 1s;
+	border:1.5px solid black;
+	border-radius: 30px;
+/*	padding: 5px;*/
+	transition: all 0.5s;
 	}
+
+}
 .heading{
 	background-color: orange;
 	text-align: center;
@@ -49,6 +52,8 @@ p{
 	font-family: 'Roboto Slab', serif;font-weight: bolder;
 	}
 #cpyrgtp{
-	font-size: 50px;
+	font-size: 25px;
 }
-
+.abcd{
+	display: inline;
+}
