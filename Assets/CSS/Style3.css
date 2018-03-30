@@ -1,0 +1,27 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+body{
+	background-position: center;
+	background-image: url("../Images/welcome.jpg");
+	background-size: cover;
+	height: 100%;
+}
+.myowncssbtn{
+	background-color: lightgreen;
+	border: 2px solid black;
+}
+.myowncssbtn:hover{
+	background-color: lightgrey;
+	border: 2px solid green;
+	cursor: pointer;
+}
+header.startup {
+	margin-top: 50%;
+}
+hr{
+	background-color: white;
+	width: 500px;
+}
