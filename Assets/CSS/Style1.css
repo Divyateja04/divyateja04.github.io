@@ -1,4 +1,40 @@
-body{
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+body {
+  background-position: center;
+  background-image: url("../Images/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.myowncssbtn{
+	background-color: lightgreen;
+	border: 2px solid black;
+}
+.myowncssbtn:hover{
+	background-color: lightgrey;
+	border: 2px solid green;
+	cursor: pointer;
+}
+header.startup {
+	margin-top: 50%;
+}
+hr{
+	background-color: white;
+	width: 500px;
+}
+
+
+
+.bgimg{
 	margin: 50px;
 	background-image: url(../Images/Bgimage1.jpg);
 	}
@@ -56,4 +92,20 @@ p{
 }
 .abcd{
 	display: inline;
+}
+a { 
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+.sscbar li{
+   size:5px;
 }
