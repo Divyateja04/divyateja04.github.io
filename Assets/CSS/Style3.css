@@ -5,7 +5,7 @@ html {
 }
 body {
   background-position: center;
-  background-image: url("../Images/welcome.jpg") no-repeat;
+  background-image: url("../Images/welcome.jpg") fixed;
   background-size: cover;
   height: 100%
   -webkit-background-size: cover;
