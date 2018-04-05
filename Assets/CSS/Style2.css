@@ -11,21 +11,6 @@ ul {
    padding: 20px 50px;
    background: white;
 }
-#sticky-social {
-   left: 0;
-   position: fixed;
-   top: 50%;
-   background-color: lightgrey;
-   border-radius:50px 50px;
-}
-
-/*#sticky-social a span {
-   line-height: 35px;
-   left: -120px;
-   position: absolute;
-   text-align:center;
-   width:120px;
-}*/
-#sticky-social a:hover span {
-   left: 100%;
+.sscbar li{
+   size:5px;
 }
