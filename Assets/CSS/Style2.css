@@ -9,8 +9,6 @@ body{
 .navbar a:hover {
 	background-color: aliceblue;
 	border:1.5px solid black;
-	border-radius: 30px;
-/*	padding: 5px;*/
 	transition: all 0.5s;
 	}
 
@@ -49,7 +47,8 @@ body{
 	width:275px;
 }
 p{
-	font-family: 'Roboto Slab', serif;font-weight: bolder;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bolder;
 	}
 #cpyrgtp{
 	font-size: 25px;
@@ -67,7 +66,4 @@ ul {
 }
 .container {
    margin: 0 auto;
-}
-.sscbar li{
-   size:5px;
 }
