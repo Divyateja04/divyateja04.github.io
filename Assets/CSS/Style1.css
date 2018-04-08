@@ -8,7 +8,7 @@ body {
   background-position: center;
   background-image: url("../Images/welcome.jpg");
   background-position: center
-  /*  background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
   background-size: cover;
   height: 100%
   -webkit-background-size: cover;
