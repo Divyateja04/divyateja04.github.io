@@ -5,7 +5,7 @@ html {
   overflow: auto; 
 }
 body {
-  background-position: center;
+  /*background-position: center;
   background-image: url("../Images/welcome.jpg");
   background-position: center;
   background-repeat: no-repeat; 
@@ -14,7 +14,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; 
+  background-size: cover; */
 }
 .myowncssbtn{
 	background-color: lightgreen;
@@ -26,7 +26,19 @@ body {
 	cursor: pointer;
 }
 .startup{
-   position: absolute;
+  position: relative;
+/*  margin-top: 50%;
+  margin-bottom: 50%;*/
+  background-position: center;
+  background-image: url("../Images/welcome.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 hr{
 	background-color: white;
