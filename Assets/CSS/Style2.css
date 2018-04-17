@@ -29,10 +29,13 @@ body{
 	border: 5px dashed blue;
 	}
 .Workimg img{
-	height:100px;
-	width:100px;
+	height:200px;
+	width:200px;
 	transition: all 1s;
 	border-radius: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	}
 .Workimg img:hover{
 	transform: scale(1.1);
@@ -67,4 +70,7 @@ ul {
 .centeralign{
 	align-content:center;
 	text-align: center; 
+}
+.xyz{
+	text-align: center;
 }
