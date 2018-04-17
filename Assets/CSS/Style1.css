@@ -4,8 +4,6 @@ html {
   height: 100%; 
   overflow: auto; 
 }
-body {
-}
 .myowncssbtn{
 	background-color: lightgreen;
 	border: 2px solid lightgrey;
@@ -39,3 +37,9 @@ hr{
   font-size: 25px;
   color: white;
 }
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
