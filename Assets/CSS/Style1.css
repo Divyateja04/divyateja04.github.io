@@ -42,3 +42,6 @@ hr{
   flex-wrap: wrap;
   justify-content:space-around;
 }
+.socialBar{
+  text-decoration: none;
+}
