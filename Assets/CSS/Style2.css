@@ -1,45 +1,30 @@
 body{
 	background-image: url(../Images/Bgimage1.jpg);
 	}
-.navbar a{
-	text-decoration: none;
-	color:coral;
-	}
-.navbar a:hover {
-	background-color: aliceblue;
-	border:1.5px solid black;
-	transition: all 0.5s;
-	}
-
-}
 .heading{
 	background-color: orange;
 	text-align: center;
 	margin: auto;
 	}
-.navbar li{
-	display: inline;
-	background-color: white;
-	border:3px solid white;
-	}
-.navbar ul{
-	text-align: center;
-	}
-#bordernav{
-	border: 5px dashed blue;
-	}
 .Workimg img{
-	height:200px;
-	width:200px;
+	height:15%;
+	width:15%;
 	transition: all 1s;
-	border-radius: 50px;
-	display: block;
+	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 	}
 .Workimg img:hover{
 	transform: scale(1.1);
-	}
+}
+.Workimg1{
+	height:25%;
+	width:25%;
+	transition: all 1s;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
 p{
 	font-family: 'Roboto Slab', serif;
 	font-weight: bolder;
