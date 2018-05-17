@@ -40,15 +40,6 @@ body{
 .Workimg img:hover{
 	transform: scale(1.1);
 	}
-.Workimgli1 img{
-	transition: all 1s;
-	height:100px;
-	width:250px; 
-	}
-.Workimgli1 img:hover{
-	height:110px;
-	width:275px;
-}
 p{
 	font-family: 'Roboto Slab', serif;
 	font-weight: bolder;
