@@ -59,6 +59,7 @@ ul {
 	text-align: center;
 }
 .projects img{
-	margin-left:0;
-	margin-right:0;
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
 }
