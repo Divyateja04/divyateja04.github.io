@@ -9,7 +9,7 @@ body{
 
 
 /*	Images*/
-.Workimg img{
+.mytools{
 	height:15%;
 	width:15%;
 	transition: all 1s;
@@ -17,28 +17,24 @@ body{
     margin-left: auto;
     margin-right: auto;
 	}
-.Workimg img:hover{
+.icontools img:hover{
 	transform: scale(1.1);
 }
+.icontools i:hover{
+	transform: scale(1.1);
+}
+.icontools{
+	text-align: center;
+}
 
-.devicons i{
-	font-size: 15em;
+.devicons{
+	font-size: 3em;
 	transition: all 1s;
-	display: block;
-    margin-left: 40%;
-    margin-right: auto;
 }
-.devicons i:hover{
-	transform: scale(1.1);
-}
-
 
 p{
 	font-family: 'Roboto Slab', serif;
 	font-weight: bolder;
-	}
-.abcd{
-	display: inline;
 }
 a { 
    text-decoration: none;
@@ -55,11 +51,11 @@ ul {
 	align-content:center;
 	text-align: center; 
 }
-.xyz{
-	text-align: center;
-}
+
 .projects img{
 	display: block;
 	margin-left: auto;
     margin-right: 50%;
+    width: 100%;
+	max-width:750px;
 }
