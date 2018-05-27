@@ -13,22 +13,22 @@ body{
 	height:15%;
 	width:15%;
 	transition: all 1s;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	}
 .Workimg img:hover{
 	transform: scale(1.1);
 }
-.Workimg1 img{
-	height:25%;
-	width:25%;
+
+.devicons i{
+	font-size: 15em;
 	transition: all 1s;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
+	display: block;
+    margin-left: 40%;
+    margin-right: auto;
 }
-.Workimg1 img:hover{
+.devicons i:hover{
 	transform: scale(1.1);
 }
 
