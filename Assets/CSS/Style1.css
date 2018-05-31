@@ -33,10 +33,6 @@ hr{
 .head{
     font-family: 'Hi Melody', cursive;
 }
-#cpyrgtp{
-  font-size: 25px;
-  color: white;
-}
 .Cards{
   display: flex;
   flex-wrap: wrap;
