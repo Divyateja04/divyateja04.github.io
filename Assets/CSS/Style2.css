@@ -59,3 +59,55 @@ ul {
     width: 100%;
 	max-width:750px;
 }
+/*///////////// NAVBAR ///////////////////*/
+
+.navbar{
+    background-color: transparent;
+    overflow: hidden;
+    height: 63px;
+    position: fixed;
+}
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+    opacity: 0.7;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;  
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+.side-nav a:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#Works{
+	background:linear-gradient(to right, rgb(245, 49, 204), rgb(182, 165, 87));
+}
+#About{
+	background:linear-gradient(to right, rgb(36, 177, 212), rgb(161, 239, 65));
+}
+#SpAch{
+	background:linear-gradient(to right, rgb(96, 225, 154), rgb(110, 236, 99));
+}
+

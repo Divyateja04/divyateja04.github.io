@@ -16,7 +16,8 @@ html {
 .startup{
   position: relative;
   background-position: center;
-  background-image: url("../Images/welcome2.jpg");
+/*  background-image: url("../Images/welcome2.jpg");*/
+  background: linear-gradient(to right, rgb(40, 72, 111), rgb(240, 50, 7));
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;

@@ -16,9 +16,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/Style1.css">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/Style2.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Divyateja04/myfooter/master/Footer-white.css">
+	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Divyateja04/myfooter/master/Footer-white.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-	<script type="text/javascript" src="Assets/JS/1.js"></script>
 
 	<!-- Linking Font Awesome -->
 	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.9/web-fonts-with-css/css/fontawesome-all.css">
@@ -33,9 +32,25 @@
 
 </head>
 <body>
-
-	
-	<header class="startup text-center text-white d-flex">
+	<header class="startup text-center text-white d-flex"  id="body">
+		<nav class="navbar">
+				<span class="open-slide">
+					<a onclick="openSideMenu()">
+						<svg width="30" height="30" class="animated rubberBand"> 
+				            <path d="M0,5 30,5" stroke="#109985" stroke-width="5"></path>
+				            <path d="M0,14 30,14" stroke="#109985" stroke-width="5"></path>
+				            <path d="M0,23 30,23" stroke="#109985" stroke-width="5"></path>
+				        </svg>
+					</a>
+				</span>
+		</nav>
+		<div id="side-menu" class="side-nav">
+				<a class="btn-close" onclick="closeSideMenu()">×</a>
+				<a href="#body">Home</a>
+				<a href="#About">About</a>
+				<a href="#Works">My Works</a>
+				<a href="#SpAch">Achievements</a>
+		</div>
 		<div class="container my-auto">
 			<div class="row head">
 				<div class="col-lg-12 my-auto animated bounceInRight"><h1>Hey, I am Divyateja</h1></div>
@@ -46,13 +61,19 @@
 					<a href="#my"><button class="btn btn-lg myowncssbtn">Enter My World</button></a>
 				</div>
 			</div>
-			    <div class="footer-social-transparent">
+			<footer id="myFooter">
+			        <div class="container">
+			       		<p class="footer-copyright">&copy; 2018 Copyright Divyateja Pasupuleti</p>
+			        </div>
+			        <div class="footer-social-transparent">
 			            <a href="#" class="social-icons"><i class="fab fa-facebook" style="font-size:2em;"></i></a>
 			            <a href="mailto:divyateja2004@gmail.com" class="social-icons"><i class="fas fa-envelope" style="font-size:2em;"></i></a>
 			            <a href="https://twitter.com/JoinMeDivyateja" class="social-icons"><i class="fab fa-twitter" style="font-size:2em;"></i></a>
 			            <a href="https://www.instagram.com/divyateja.pasupuleti/" class="social-icons"><i class="fab fa-instagram" style="font-size:2em;"></i></a>
 			            <a href="https://medium.com/@divyateja" class="social-icons"><i class="fab fa-medium" style="font-size:2em;"></i></a>
-			    </div>	
+			        </div>
+			    </footer>
+			</div>
 		</div>
 	</header>
 	
@@ -187,7 +208,7 @@
 	 	</p>
 	</div>
 	<hr>
-	<footer id="myFooter">
+	<footer class="myFooter">
         <div class="container">
        		<p class="footer-copyright">&copy; 2018 Copyright Divyateja Pasupuleti</p>
         </div>
@@ -205,5 +226,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<!-- Javascript Linking -->
+	<script type="text/javascript" src="Assets/JS/script.js"></script>
 </body>
 </html>
