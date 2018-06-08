@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/Style1.css">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/Style2.css">
-	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/Divyateja04/myfooter/master/Footer-white.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Footer-white.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 	<!-- Linking Font Awesome -->
@@ -35,8 +35,8 @@
 	<header class="startup text-center text-white d-flex"  id="body">
 		<nav class="navbar">
 				<span class="open-slide">
-					<a onclick="openSideMenu()">
-						<svg width="30" height="30" class="animated rubberBand"> 
+					<a onclick="sidemenu()">
+						<svg width="30" height="30" class="animated infinite pulse"> 
 				            <path d="M0,5 30,5" stroke="#109985" stroke-width="5"></path>
 				            <path d="M0,14 30,14" stroke="#109985" stroke-width="5"></path>
 				            <path d="M0,23 30,23" stroke="#109985" stroke-width="5"></path>
@@ -45,7 +45,7 @@
 				</span>
 		</nav>
 		<div id="side-menu" class="side-nav">
-				<a class="btn-close" onclick="closeSideMenu()">×</a>
+				<a class="btn-close" onclick="sidemenu()">×</a>
 				<a href="#body">Home</a>
 				<a href="#About">About</a>
 				<a href="#Works">My Works</a>
@@ -61,18 +61,6 @@
 					<a href="#my"><button class="btn btn-lg myowncssbtn">Enter My World</button></a>
 				</div>
 			</div>
-			<footer id="myFooter">
-			        <div class="container">
-			       		<p class="footer-copyright">&copy; 2018 Copyright Divyateja Pasupuleti</p>
-			        </div>
-			        <div class="footer-social-transparent">
-			            <a href="#" class="social-icons"><i class="fab fa-facebook" style="font-size:2em;"></i></a>
-			            <a href="mailto:divyateja2004@gmail.com" class="social-icons"><i class="fas fa-envelope" style="font-size:2em;"></i></a>
-			            <a href="https://twitter.com/JoinMeDivyateja" class="social-icons"><i class="fab fa-twitter" style="font-size:2em;"></i></a>
-			            <a href="https://www.instagram.com/divyateja.pasupuleti/" class="social-icons"><i class="fab fa-instagram" style="font-size:2em;"></i></a>
-			            <a href="https://medium.com/@divyateja" class="social-icons"><i class="fab fa-medium" style="font-size:2em;"></i></a>
-			        </div>
-			    </footer>
 			</div>
 		</div>
 	</header>
@@ -208,11 +196,11 @@
 	 	</p>
 	</div>
 	<hr>
-	<footer class="myFooter">
+	<footer id="myFooter">
         <div class="container">
        		<p class="footer-copyright">&copy; 2018 Copyright Divyateja Pasupuleti</p>
         </div>
-        <div class="footer-social-transparent">
+        <div class="footer-social">
             <a href="#" class="social-icons"><i class="fab fa-facebook" style="font-size:2em;"></i></a>
             <a href="mailto:divyateja2004@gmail.com" class="social-icons"><i class="fas fa-envelope" style="font-size:2em;"></i></a>
             <a href="https://twitter.com/JoinMeDivyateja" class="social-icons"><i class="fab fa-twitter" style="font-size:2em;"></i></a>

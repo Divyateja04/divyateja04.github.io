@@ -68,7 +68,7 @@ ul {
     position: fixed;
 }
 .side-nav{
-    height: 100%;
+    height: 70%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -78,7 +78,6 @@ ul {
     padding-top: 60px;
     transition: 0.5s;  
 }
-
 .side-nav a{
     padding: 10px 10px 10px 30px;
     text-decoration: none;
@@ -91,7 +90,6 @@ ul {
     color: #fff;
     transform: scale(1.1);
 }
-
 .side-nav .btn-close{
     position: absolute;
     top: 0;
@@ -99,7 +97,9 @@ ul {
     font-size: 36px;
     margin-left: 50px;
 }
-
+.side-menu{
+	width: 250px;
+}
 
 #Works{
 	background:linear-gradient(to right, rgb(245, 49, 204), rgb(182, 165, 87));
