@@ -1,5 +1,6 @@
 #myFooter{
     padding-top:32px;
+    text-decoration: none;
 }
 
 #myFooter .container{
@@ -9,7 +10,7 @@
 #myFooter .footer-copyright{
     margin-bottom: 35px;
     text-align: center;
-    backdround-color: #241f20;
+    color: #ffffff;
 }
 
 #myFooter ul{
