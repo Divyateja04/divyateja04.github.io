@@ -536,7 +536,7 @@ hr.style-one {
 * 2. header styles
 */
 .header-navigation {
-  background-color: transparent !important;
+  background-color: transparent;
   margin-bottom: 0;
   border: none;
   border-radius: 0;
@@ -597,11 +597,12 @@ hr.style-one {
   margin: 0;
   padding: 0;
   list-style: none;
-  /*background-color: white !important;*/
 }
 
 .header-navigation ul.navigation-box li a .sub-nav-toggler {
   display: none;
+  background-color: white !important; 
+  /*for nav toggler color*/
 }
 
 .header-navigation ul.navigation-box > li {
@@ -614,6 +615,12 @@ hr.style-one {
   /* Thrid Level Menu */
 }
 
+@media (max-width: 1200px) { /*for screens larger than 1200px*/
+  .header-navigation ul.navigation-box > li {
+    background-color: white !important;
+  }
+}
+
 .header-navigation ul.navigation-box > li + li {
   margin-left: 40px;
 }
@@ -623,7 +630,7 @@ hr.style-one {
 }
 
 .header-navigation ul.navigation-box > li:last-child {
-  padding-right: 0;
+  padding-right: 0; 
 }
 
 .header-navigation ul.navigation-box > li > a {
@@ -661,7 +668,7 @@ hr.style-one {
   padding: 0px 0px;
   text-align: left;
   list-style: none;
-  background-color: white;
+  background-color: white !important;
   color: black;
   background-clip: padding-box;
   opacity: 0;
@@ -673,9 +680,10 @@ hr.style-one {
           box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { /*for screens larger than 1200px*/
   .header-navigation ul.navigation-box > li > .submenu {
     display: block !important;
+    background-color: white;
   }
 }
 
@@ -754,6 +762,7 @@ hr.style-one {
 @media (min-width: 1200px) {
   .header-navigation ul.navigation-box > li > ul > li > .submenu {
     display: block !important;
+    background-color: yellow !important;
   }
 }
 
