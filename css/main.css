@@ -7,6 +7,49 @@
   font-style: normal;
   font-display: swap;
 }
+.about-skills .skill-item .skill-header {
+  position: relative; }
+  .about-skills .skill-item .skill-header .skill-title {
+    font-size: 16px;
+    font-weight: 400; }
+  .about-skills .skill-item .skill-header .skill-percentage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    color: #32333c;
+    font-weight: 400;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+    .about-skills .skill-item .skill-header .skill-percentage .count-box {
+      font-size: 16px;
+      color: #32333c; }
+.about-skills .skill-item .skill-bar {
+  margin-top: 15px; }
+  .about-skills .skill-item .skill-bar .bar-inner {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    position: relative; }
+    .about-skills .skill-item .skill-bar .bar-inner .progress-line {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 5px;
+      border-radius: 5px;
+      background-color: #754ef9;
+      -webkit-transition: all 2s ease-out 0s;
+      -moz-transition: all 2s ease-out 0s;
+      -ms-transition: all 2s ease-out 0s;
+      -o-transition: all 2s ease-out 0s;
+      transition: all 2s ease-out 0s;
+      width: 0; }
+
+
 
 /*My Additions*/
 .devicons{
@@ -49,20 +92,20 @@
 }
 
 .btn-primary {
-  background: #41228e;
-  color: #fff;
+  background: lightgreen;
+  color: #000;
 }
 
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: orange !important;
 }
 
 .btn-primary:hover {
-  background: #542cb7;
+  background: orange;
 }
 
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: orange !important;
   box-shadow: none !important;
 }
 
@@ -160,7 +203,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3056,10 +3100,11 @@ input, select, textarea {
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: linear-gradient(45deg, #9dc6rb 5%, #4fa49a 30%, #4361c2);
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		/*background-size: auto,							cover,							cover;*/
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		height: 100%;
 	}
 
 		#header a {
@@ -3246,11 +3291,11 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 2em 0 1em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: linear-gradient(45deg, #9dc6rb 5%, #4fa49a 30%, #4361c2);
+		background-image: linear-gradient(45deg,  5%, #4fa49a 30%, #4361c2);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
