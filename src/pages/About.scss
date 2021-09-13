@@ -1,0 +1,13 @@
+.d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+//Devicons Part
+.devicons {
+    height: 50px;
+    width: 50px;
+}
+.devicons:hover {
+    transform: scale(2, 2);
+}

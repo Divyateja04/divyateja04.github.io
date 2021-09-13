@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: none; //for firefox
+  &::-webkit-scrollbar{
+    display: none; //for edge and chrome and safari
+  }
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
