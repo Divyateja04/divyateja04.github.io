@@ -1,16 +1,37 @@
 import React from 'react';
 
-import Card from '../components/Card';
+import Card from '../../components/Card';
 
-import windproject from '../images/windproject.png';
-import bestboycertificate from '../images/bestboycertificate.png';
-import aimbulance from '../images/aimbulance.jpg';
-import waviour from '../images/waviour.jpg';
-
+import windproject from '../../images/windproject.png';
+import bestboycertificate from '../../images/bestboycertificate.png';
+import aimbulance from '../../images/aimbulance.jpg';
+import waviour from '../../images/waviour.jpg';
+import intlspaceapiproj from '../../images/intlspaceapiproj.png';
+import smartbrainsproj from '../../images/smartbrainsproj.png';
 
 export default function Projects() {
     return (
         <div>
+            {/* Smartbrains Project Card */}
+            <Card 
+            name={"Smartbrains!"}
+            description={`A react based app that uses machine learning and image recognition 
+            to identify faces in a picture and also store your profile details 
+            using Postgres SQL, Node-js and other APIs`}
+            imgLoc={smartbrainsproj}
+            url={'https://smartbrains75281.herokuapp.com/'}
+            repo={'https://github.com/Divyateja04/smartbrains'}
+            />
+            {/* ISS API Card */}
+            <Card 
+            name={"ISS-API-APP"}
+            description={`A react based API app to get the exact latitude and longitude 
+            of the International Space Station`}
+            imgLoc={intlspaceapiproj}
+            url={'https://divyateja04.github.io/iss-api-app/'}
+            repo={'https://github.com/Divyateja04/iss-api-app'}
+            />
+            {/* Waviour Card */}
             <Card 
             name={"Waviour"}
             description={"A device that saves people from drowning in the ocean"}
@@ -23,6 +44,7 @@ export default function Projects() {
                 </div>
             }
             />
+            {/* Aimbulance Card */}
             <Card 
             name={"AiMBULANCE"}
             description={`An Automatic Ambulance system that uses drones and security camera systems 
@@ -35,6 +57,7 @@ export default function Projects() {
                 </div>
             }
             />
+            {/* Wind Power System Card */}
             <Card 
             name={"Prototype for an wind-driven power system"}
             description={`I had also taken part in my school's internal Science Exhibition 
@@ -46,6 +69,7 @@ export default function Projects() {
                 </div>
             }
             />
+            {/* Best Student Card */}
             <Card 
             name={"Jubilee Hills Public School's Best Student of the Year Award"}
             description={`I was also awarded the best student of the school for the academic year 

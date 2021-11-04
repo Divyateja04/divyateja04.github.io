@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AiOutlineMedium, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineInstagram, AiOutlineGithub, AiOutlineFacebook } from 'react-icons/ai';
+import { AiOutlineMedium, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineGithub } from 'react-icons/ai';
 
 import 'tachyons';
 import './Contact.scss';
@@ -9,10 +9,10 @@ export default function Contact() {
     return (
         <div>
             <div className="contact">
-                <div class="container">
-                    <div class="row align-items-center my-5">
-                        <div class="col-lg-12">
-                            <h1 class="font-weight-light">Contact Me!</h1>
+                <div className="container">
+                    <div className="row align-items-center my-5">
+                        <div className="col-lg-12">
+                            <h1 className="font-weight-light">Contact Me!</h1>
                             <hr></hr>
                             <p>
                                 Programming has always been interesting for me. It always helps 
@@ -30,8 +30,6 @@ export default function Contact() {
                                 <br />
                                 <a href={"https://www.linkedin.com/in/divyateja-pasupuleti"}><AiOutlineLinkedin className="h3 w3 dib noTextDecoration linkedin"/></a>
                                 <a href={"https://twitter.com/JoinMeDivyateja"}><AiOutlineTwitter className="h3 w3 dib noTextDecoration twitter"/></a>
-                                <a href={"https://facebook.com/divyateja.pasupuleti.7"}><AiOutlineFacebook className="h3 w3 dib noTextDecoration facebook"/></a>
-                                <a href={"https://www.instagram.com/divyateja.pasupuleti/"}><AiOutlineInstagram className="h3 w3 dib noTextDecoration instagram"/></a>
                                 <a href={"https://github.com/Divyateja04"}><AiOutlineGithub className="h3 w3 dib noTextDecoration github"/></a>
                                 <a href={"https://medium.com/@divyateja"}><AiOutlineMedium className="h3 w3 dib noTextDecoration medium"/></a>
                             </p>

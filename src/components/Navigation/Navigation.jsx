@@ -3,10 +3,10 @@ import React from 'react';
 import { Link, withRouter } from "react-router-dom";
 
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./theme/globalStyles";
-import { lightTheme, darkTheme } from "./theme/Theme";
-import  {useDarkMode} from "./theme/useDarkMode";
-import Toggle from "./theme/Toggler"
+import { GlobalStyles } from "../Theme/globalStyles";
+import { lightTheme, darkTheme } from "../Theme/Theme";
+import  {useDarkMode} from "../Theme/useDarkMode";
+import Toggle from "../Theme/Toggler"
 
 import './Navigation.scss';
 
@@ -52,8 +52,8 @@ const Navigation = (props) => {
                                 <li className="link">
                                     <Link
                                         className={`link ${
-                                        props.location.pathname === "/Projects" ? "active" : ""
-                                        }`} to="/Projects"
+                                        props.location.pathname === "/projects" ? "active" : ""
+                                        }`} to="/projects"
                                     >
                                         Projects
                                     </Link>
@@ -67,6 +67,11 @@ const Navigation = (props) => {
                                         Contact
                                     </Link>
                                 </li>
+                                {/* <li className="link">
+                                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                        <FaBars />
+                                    </a>
+                                </li> */}
                                 <li className="link">
                                     <Toggle theme={theme} toggleTheme={themeToggler} />
                                 </li>

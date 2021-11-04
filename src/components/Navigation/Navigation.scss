@@ -46,8 +46,25 @@ li {
     text-decoration: underline !important;
 }
 
-@media (max-width: 700px){
-    Link {
+@media screen and (max-width: 650px) {
+    .left {
         display: none;
     }
-}
+    .wrapper {
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .link {
+        padding: 5px;
+    }
+    ul {
+        padding: 0;
+    }
+    // .topbar li:not(:last-child) {display: none;}
+    // .topbar a.icon {
+    //   float: right;
+    //   display: block;
+    // }
+  }
