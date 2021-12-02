@@ -8,10 +8,21 @@ import aimbulance from '../../images/aimbulance.jpg';
 import waviour from '../../images/waviour.jpg';
 import intlspaceapiproj from '../../images/intlspaceapiproj.png';
 import smartbrainsproj from '../../images/smartbrainsproj.png';
+import robofriendsproj from '../../images/robofriendsproj.png';
+import spotifyrecomproj from '../../images/spotifyrecomproj.png';
 
 export default function Projects() {
     return (
         <div>
+            {/* Spotify-Postman Project Card */}
+            <Card 
+            name={"Spotify API App using Postman!"}
+            description={`A spotify API based recommendation app that gives you recommendations based 
+            on the artists you have given as input`}
+            imgLoc={spotifyrecomproj}
+            url={'https://heathered-climbing-ravioli.glitch.me/'}
+            repo={'https://glitch.com/edit/#!/heathered-climbing-ravioli'}
+            />
             {/* Smartbrains Project Card */}
             <Card 
             name={"Smartbrains!"}
@@ -21,6 +32,15 @@ export default function Projects() {
             imgLoc={smartbrainsproj}
             url={'https://smartbrains75281.herokuapp.com/'}
             repo={'https://github.com/Divyateja04/smartbrains'}
+            />
+            {/* RoboFriends Project Card */}
+            <Card 
+            name={"RoboFriends!"}
+            description={`A react based app that uses APIs to get data from a remote server abd filters
+            robots based on text given`}
+            imgLoc={robofriendsproj}
+            url={'https://divyateja04.github.io/robofriends/'}
+            repo={'https://github.com/Divyateja04/robofriends'}
             />
             {/* ISS API Card */}
             <Card 

@@ -1,13 +1,13 @@
 import React from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer } from "./components";
 import { Home, About, Contact, Projects } from "./pages";
 
 import './App.scss'
 
 import Particles from 'react-particles-js';
-import particlesConfig from './config/particlesConfig';
+import particlesConfig from './config/particlesConfig.js';
 
 const App = () => {
 
