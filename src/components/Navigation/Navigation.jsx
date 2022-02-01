@@ -5,7 +5,7 @@ import { Link, withRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "../Theme/globalStyles";
 import { lightTheme, darkTheme } from "../Theme/Theme";
-import  {useDarkMode} from "../Theme/useDarkMode";
+import { useDarkMode } from "../Theme/useDarkMode";
 import Toggle from "../Theme/Toggler"
 
 import './Navigation.scss';

@@ -25,7 +25,6 @@ ul {
 
 .link {
     text-decoration: none;
-    color: rgb(126, 121, 121);
     padding: 10px;
 }
 
@@ -39,9 +38,7 @@ li {
     align-items: center;
 }
 
-
 .active, .link:hover {
-    color:black;
     outline: none;
     text-decoration: underline !important;
 }

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             <div className="bottombar">
-                    <p style={{ color: 'black'}}>
+                    <p>
                         Copyright &copy; Divyateja Pasupuleti 2021
                     </p>
             </div>

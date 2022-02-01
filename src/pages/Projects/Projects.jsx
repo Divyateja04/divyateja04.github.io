@@ -52,7 +52,7 @@ export default function Projects() {
             repo={'https://github.com/Divyateja04/iss-api-app'}
             />
             {/* Waviour Card */}
-            <Card 
+            {/* <Card 
             name={"Waviour"}
             description={"A device that saves people from drowning in the ocean"}
             imgLoc={waviour}
@@ -62,8 +62,8 @@ export default function Projects() {
                     <li>1st Prize in CBSE Regional Science Exhibition</li>
                     <li>1st Prize in NIRD Rural Innovator's Startup Conclave 2018</li>
                 </div>
-            }
-            />
+            } 
+            /> */}
             {/* Aimbulance Card */}
             <Card 
             name={"AiMBULANCE"}

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-//import particlesConfig from '../config/particlesConfig';
 
 
 export const useDarkMode = () => {
@@ -12,7 +11,6 @@ export const useDarkMode = () => {
 
     const themeToggler = () => {
         theme === 'light' ? setMode('dark') : setMode('light');
-        //console.log(particlesConfig.particles.color.value)
     };
 
     useEffect(() => {
