@@ -10,10 +10,19 @@ import intlspaceapiproj from '../../images/intlspaceapiproj.png';
 import smartbrainsproj from '../../images/smartbrainsproj.png';
 import robofriendsproj from '../../images/robofriendsproj.png';
 import spotifyrecomproj from '../../images/spotifyrecomproj.png';
+import teenageconcerns from '../../images/teenageconcerns.png';
 
 export default function Projects() {
     return (
         <div>
+            {/* TeenageConcerns Project Card */}
+            <Card 
+            name={"Teenage Concerns"}
+            description={`A web app that connects depressed and sad people with volunteers, and psychologists`}
+            imgLoc={teenageconcerns}
+            url={''}
+            repo={''}
+            />
             {/* Spotify-Postman Project Card */}
             <Card 
             name={"Spotify API App using Postman!"}
@@ -52,7 +61,7 @@ export default function Projects() {
             repo={'https://github.com/Divyateja04/iss-api-app'}
             />
             {/* Waviour Card */}
-            {/* <Card 
+            <Card 
             name={"Waviour"}
             description={"A device that saves people from drowning in the ocean"}
             imgLoc={waviour}
@@ -62,8 +71,8 @@ export default function Projects() {
                     <li>1st Prize in CBSE Regional Science Exhibition</li>
                     <li>1st Prize in NIRD Rural Innovator's Startup Conclave 2018</li>
                 </div>
-            } 
-            /> */}
+            }
+            />
             {/* Aimbulance Card */}
             <Card 
             name={"AiMBULANCE"}

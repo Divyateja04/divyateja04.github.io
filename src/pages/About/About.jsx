@@ -125,7 +125,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <h1 className="font-weight-light">Acheievements<br /> and Certifications</h1>
+                    <h1 className="font-weight-light">Achievements<br /> and Certifications</h1>
                         <hr></hr>
                         <div className="row">
                             <div className="col-lg-6">

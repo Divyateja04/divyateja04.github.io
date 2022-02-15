@@ -12,18 +12,6 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.barColor};
   }
 
-  .bottombar {
-    color: ${({ theme }) => theme.topBarLink};
-  }
-
-  .link {
-    color: ${({ theme }) => theme.topBarLink};
-  }
-
-  .active, .link:hover {
-    color: ${({ theme }) => theme.topBarLinkActive};
-  }
-
   hr {
     border-color: ${({ theme }) => theme.hrColor};
   }
@@ -32,7 +20,6 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: ${({ theme }) => theme.text};
   }
-
   .noTextDecorationHome:hover {
       color: ${({ theme }) => theme.texthover} !important;
   }
@@ -77,4 +64,5 @@ export const GlobalStyles = createGlobalStyle`
   .card {
     background-color: ${({ theme }) => theme.body};
   }
+
   `
