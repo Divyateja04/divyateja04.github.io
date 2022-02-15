@@ -1,17 +1,17 @@
 export const lightTheme = {
-    body: '#FFF',
-    text: '#363537',
+    body: '#006064',
+    text: '#FFF',
     toggleBorder: '#FFF',
     background: '#363537',
-    hrColor: 'black',
-    texthover: 'black',
+    hrColor: '#FFF',
+    texthover: '#FFF',
     barColor: '#F5F5DC',
-    btnHover: '#fff',
-    btnColor: '#343a40',
+    btnHover: '#363537',
+    btnColor: '#FFF',
 }
 
 export const darkTheme = {
-    body: '#363537',
+    body: '#212121',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
     background: '#999',

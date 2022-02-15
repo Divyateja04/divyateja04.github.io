@@ -5,6 +5,7 @@ import 'tachyons';
 
 import { RiMedalFill } from 'react-icons/ri';
 import { BsBriefcase } from 'react-icons/bs';
+import { IoBookmarks } from 'react-icons/io5';
 
 export default function About() {
 
@@ -123,6 +124,69 @@ export default function About() {
                             </div>   
                         </div>
                     </div>
+
+                    <h1 className="font-weight-light">Achievements<br /> and Certifications</h1>
+                        <hr></hr>
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="d-flex">
+                                    <div className="pa2 tc">
+                                        <IoBookmarks className="h3 w3 dib"/> 
+                                    </div>
+                                    <div className="tc">
+                                        <h5>CBSE National Science Exhibition 2019</h5>
+                                        <p className="mb-0">First Prize - National Level</p>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <div className="d-flex">
+                                    <div className="pa2 tc">
+                                        <IoBookmarks className="h3 w3 dib"/> 
+                                    </div>
+                                    <div className="tc">
+                                        <h5>CBSE School Topper - Computer Science</h5>
+                                        <p className="mb-0">Jubilee Hills Public School</p>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <div className="d-flex">
+                                    <div className="pa2 tc">
+                                        <IoBookmarks className="h3 w3 dib"/> 
+                                    </div>
+                                    <div className="tc">
+                                        <h5>Best Student of the Year</h5>
+                                        <p className="mb-0">Jubilee Hills Public School</p>
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
+
+                            <div className="col-lg-6">
+                                <div className="d-flex">
+                                    <div className="pa2 tc">
+                                        <IoBookmarks className="h3 w3 dib"/> 
+                                    </div>
+                                    <div className="tc">
+                                        <h5>Virtual Experience Program</h5>
+                                        <p className="mb-0">JP Morgan & Chase</p>
+                                    </div>
+                                </div>
+                                <br />
+
+                                <div className="d-flex">
+                                    <div className="pa2 tc">
+                                        <IoBookmarks className="h3 w3 dib"/> 
+                                    </div>
+                                    <div className="tc">
+                                        <h5>Student Expert</h5>
+                                        <p className="mb-0">Postman</p>
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
+                        </div>
                 </div>
             </div>   
         </div>

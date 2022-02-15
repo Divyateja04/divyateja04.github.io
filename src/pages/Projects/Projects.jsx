@@ -10,10 +10,19 @@ import intlspaceapiproj from '../../images/intlspaceapiproj.png';
 import smartbrainsproj from '../../images/smartbrainsproj.png';
 import robofriendsproj from '../../images/robofriendsproj.png';
 import spotifyrecomproj from '../../images/spotifyrecomproj.png';
+import teenageconcerns from '../../images/teenageconcerns.png';
 
 export default function Projects() {
     return (
         <div>
+            {/* TeenageConcerns Project Card */}
+            <Card 
+            name={"Teenage Concerns"}
+            description={`A web app that connects depressed and sad people with volunteers, and psychologists`}
+            imgLoc={teenageconcerns}
+            url={''}
+            repo={''}
+            />
             {/* Spotify-Postman Project Card */}
             <Card 
             name={"Spotify API App using Postman!"}
