@@ -11,10 +11,21 @@ import smartbrainsproj from '../../images/smartbrainsproj.png';
 import robofriendsproj from '../../images/robofriendsproj.png';
 import spotifyrecomproj from '../../images/spotifyrecomproj.png';
 import teenageconcerns from '../../images/teenageconcerns.png';
+import donutbot from '../../images/donutbot.png';
 
 export default function Projects() {
     return (
         <div>
+            <h1 className="font-weight-light">Web Development Projects</h1>
+            <hr></hr>
+            {/* Donut Bot Project Card */}
+            <Card 
+            name={"Donut Bot"}
+            description={`Well, you have to try it out to know more :)`}
+            imgLoc={donutbot}
+            url={'https://discord.com/api/oauth2/authorize?client_id=944521329032429578&permissions=1111137872119&scope=applications.commands%20bot'}
+            repo={''}
+            />
             {/* TeenageConcerns Project Card */}
             <Card 
             name={"Teenage Concerns"}
@@ -60,6 +71,8 @@ export default function Projects() {
             url={'https://divyateja04.github.io/iss-api-app/'}
             repo={'https://github.com/Divyateja04/iss-api-app'}
             />
+            <h1 className="font-weight-light">Electronics based Projects</h1>
+            <hr></hr>
             {/* Waviour Card */}
             <Card 
             name={"Waviour"}
@@ -98,6 +111,8 @@ export default function Projects() {
                 </div>
             }
             />
+            <h1 className="font-weight-light">Certificates</h1>
+            <hr></hr>
             {/* Best Student Card */}
             <Card 
             name={"Jubilee Hills Public School's Best Student of the Year Award"}
