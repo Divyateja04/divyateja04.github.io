@@ -15,7 +15,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{"margin": "50px 50px 0px 0px"}}>
                 <div>
                     <div className="container">
                         <div className="row align-items-center">

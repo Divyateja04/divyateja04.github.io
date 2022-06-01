@@ -5,9 +5,11 @@ export const lightTheme = {
     background: '#363537',
     hrColor: '#FFF',
     texthover: '#FFF',
-    barColor: '#F5F5DC',
+    barColor: 'white',
     btnHover: '#363537',
     btnColor: '#FFF',
+    card: '#000',
+    cardText: '#fff',
 }
 
 export const darkTheme = {
@@ -17,7 +19,9 @@ export const darkTheme = {
     background: '#999',
     hrColor: 'white',
     texthover: 'white',
-    barColor: '#F5F5DC',
-    btnHover: '#212529',
-    btnColor: '#f8f9fa',
+    barColor: 'white',
+    btnHover: 'white', //#212529
+    btnColor: 'black', //#f8f9fa
+    card: '#FFF',
+    cardText: '#000',
 }
