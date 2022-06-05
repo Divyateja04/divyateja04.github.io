@@ -21,7 +21,7 @@ export const darkTheme = {
     texthover: 'white',
     barColor: 'white',
     btnHover: 'white', //#212529
-    btnColor: 'black', //#f8f9fa
+    btnColor: 'gray', //#f8f9fa
     card: '#FFF',
     cardText: '#000',
 }
