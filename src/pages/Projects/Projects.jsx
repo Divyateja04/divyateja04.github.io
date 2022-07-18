@@ -12,12 +12,21 @@ import robofriendsproj from '../../images/robofriendsproj.png';
 import spotifyrecomproj from '../../images/spotifyrecomproj.png';
 import teenageconcerns from '../../images/teenageconcerns.png';
 import donutbot from '../../images/donutbot.png';
+import vmwebsite from '../../images/vmwebsite.png';
 
 export default function Projects() {
     return (
         <div>
             <h1 className="font-weight-light">Web Development Projects</h1>
             <hr></hr>
+            {/* VM Website Project Card */}
+            <Card 
+            name={"VM Website"}
+            description={`Website for an oncampus literary fest :)`}
+            imgLoc={vmwebsite}
+            url={'https://divyateja04.github.io/vmwebsite/'}
+            repo={'https://github.com/Divyateja04/vmwebsite'}
+            />
             {/* Donut Bot Project Card */}
             <Card 
             name={"Donut Bot"}
