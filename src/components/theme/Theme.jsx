@@ -13,10 +13,10 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-    body: '#212121',
+    body: 'black',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
-    background: '#999',
+    background: 'black',
     hrColor: 'white',
     texthover: 'white',
     barColor: 'white',

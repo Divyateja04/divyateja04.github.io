@@ -15,7 +15,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div style={{"margin": "50px 50px 0px 0px"}}>
+            <div style={{"margin": "50px 50px 0px 0px"}} className="pa4">
                 <div>
                     <div className="container">
                         <div className="row align-items-center">

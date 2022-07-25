@@ -85,7 +85,7 @@ export default function Projects() {
             {/* Waviour Card */}
             <Card 
             name={"Waviour"}
-            description={"A device that saves people from drowning in the ocean"}
+            description={"Not Available at the moment, please contact me for more info"}//{"A device that saves people from drowning in the ocean"}
             imgLoc={waviour}
             awards={
                 <div>
@@ -98,9 +98,9 @@ export default function Projects() {
             {/* Aimbulance Card */}
             <Card 
             name={"AiMBULANCE"}
-            description={`An Automatic Ambulance system that uses drones and security camera systems 
+            description={"Not Available at the moment, please contact me for more info"}/*{`An Automatic Ambulance system that uses drones and security camera systems 
             to automatically identify accidents and report them to the nearest hospital and also fill
-             out forms for them`}
+             out forms for them`}*/
             imgLoc={aimbulance}
             awards={
                 <div>
