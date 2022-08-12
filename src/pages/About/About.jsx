@@ -250,7 +250,6 @@ export default function About() {
                             <br />
                         </div>
                     </div>
->>>>>>> source-files
                 </div>
             </div>   
         </div>
