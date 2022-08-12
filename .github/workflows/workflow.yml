@@ -25,7 +25,7 @@ jobs:
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.1.1
-          with:
-            branch: gh-pages
-            folder: build # The folder the action should deploy.
+        with:
+          branch: gh-pages
+          folder: build # The folder the action should deploy.
       
