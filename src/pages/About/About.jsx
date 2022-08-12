@@ -64,28 +64,29 @@ export default function About() {
                         </div>
 
                         <div className="col-lg-6">
-                            {/* <h1 className="font-weight-light">Experience</h1>
+                            <h1 className="font-weight-light">Experience</h1>
                             <hr></hr>
                             <div className="d-flex">
                                 <div className="pa2 tc">
                                     <BsBriefcase className=" h3 w3 dib"/> 
                                 </div>
                                 <div className="tc">
-                                    <p className="mb-0">2019 - Present</p>
-                                    <h5>Occupation</h5>
-                                    <p className="mb-0">Place of work</p>
+                                    <p className="mb-0">Dec 2021 - June 2022</p>
+                                    <h5 className="underline">Web Developer</h5>
+                                    <p className="mb-0">Teenage Concerns</p>
                                 </div>
                             </div>
-                            <br /> */}
+                            <br />
 
 
                             <h1 className="font-weight-light">Skills</h1>   
                             <hr></hr>
-                            Programming
+                            Programming:
                             <br />
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
+                            <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
                             <br /><br />
                             <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
                                 <div class="bg-green br-pill h1 shadow-1 w-60 progress-bar" ><p style={{"font-size": "17px"}}>60%</p></div>
@@ -97,6 +98,7 @@ export default function About() {
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                             <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                            <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
                             <br /><br />
                             <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
                                 <div class="bg-green br-pill h1 shadow-1 w-80 progress-bar" ><p style={{"font-size": "17px"}}>80%</p></div>
@@ -187,6 +189,68 @@ export default function About() {
                                 <br />
                             </div>
                         </div>
+                    <hr></hr>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="d-flex">
+                                <div className="pa2 tc">
+                                    <IoBookmarks className="h3 w3 dib"/> 
+                                </div>
+                                <div className="tc">
+                                    <h5>CBSE National Science Exhibition 2019</h5>
+                                    <p className="mb-0">First Prize - National Level</p>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div className="d-flex">
+                                <div className="pa2 tc">
+                                    <IoBookmarks className="h3 w3 dib"/> 
+                                </div>
+                                <div className="tc">
+                                    <h5>CBSE School Topper - Computer Science</h5>
+                                    <p className="mb-0">Jubilee Hills Public School</p>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div className="d-flex">
+                                <div className="pa2 tc">
+                                    <IoBookmarks className="h3 w3 dib"/> 
+                                </div>
+                                <div className="tc">
+                                    <h5>Best Student of the Year</h5>
+                                    <p className="mb-0">Jubilee Hills Public School</p>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="d-flex">
+                                <div className="pa2 tc">
+                                    <IoBookmarks className="h3 w3 dib"/> 
+                                </div>
+                                <div className="tc">
+                                    <h5>Virtual Experience Program</h5>
+                                    <p className="mb-0">JP Morgan & Chase</p>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div className="d-flex">
+                                <div className="pa2 tc">
+                                    <IoBookmarks className="h3 w3 dib"/> 
+                                </div>
+                                <div className="tc">
+                                    <h5>Student Expert</h5>
+                                    <p className="mb-0">Postman</p>
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+>>>>>>> source-files
                 </div>
             </div>   
         </div>

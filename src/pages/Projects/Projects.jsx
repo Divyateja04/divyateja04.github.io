@@ -11,10 +11,30 @@ import smartbrainsproj from '../../images/smartbrainsproj.png';
 import robofriendsproj from '../../images/robofriendsproj.png';
 import spotifyrecomproj from '../../images/spotifyrecomproj.png';
 import teenageconcerns from '../../images/teenageconcerns.png';
+import donutbot from '../../images/donutbot.png';
+import vmwebsite from '../../images/vmwebsite.png';
 
 export default function Projects() {
     return (
         <div>
+            <h1 className="font-weight-light">Web Development Projects</h1>
+            <hr></hr>
+            {/* VM Website Project Card */}
+            <Card 
+            name={"VM Website"}
+            description={`Website for an oncampus literary fest :)`}
+            imgLoc={vmwebsite}
+            url={'https://divyateja04.github.io/vmwebsite/'}
+            repo={'https://github.com/Divyateja04/vmwebsite'}
+            />
+            {/* Donut Bot Project Card */}
+            <Card 
+            name={"Donut Bot"}
+            description={`Well, you have to try it out to know more :)`}
+            imgLoc={donutbot}
+            url={'https://discord.com/api/oauth2/authorize?client_id=944521329032429578&permissions=1111137872119&scope=applications.commands%20bot'}
+            repo={''}
+            />
             {/* TeenageConcerns Project Card */}
             <Card 
             name={"Teenage Concerns"}
@@ -60,10 +80,12 @@ export default function Projects() {
             url={'https://divyateja04.github.io/iss-api-app/'}
             repo={'https://github.com/Divyateja04/iss-api-app'}
             />
+            <h1 className="font-weight-light">Electronics based Projects</h1>
+            <hr></hr>
             {/* Waviour Card */}
             <Card 
             name={"Waviour"}
-            description={"A device that saves people from drowning in the ocean"}
+            description={"Not Available at the moment, please contact me for more info"}//{"A device that saves people from drowning in the ocean"}
             imgLoc={waviour}
             awards={
                 <div>
@@ -76,9 +98,9 @@ export default function Projects() {
             {/* Aimbulance Card */}
             <Card 
             name={"AiMBULANCE"}
-            description={`An Automatic Ambulance system that uses drones and security camera systems 
+            description={"Not Available at the moment, please contact me for more info"}/*{`An Automatic Ambulance system that uses drones and security camera systems 
             to automatically identify accidents and report them to the nearest hospital and also fill
-             out forms for them`}
+             out forms for them`}*/
             imgLoc={aimbulance}
             awards={
                 <div>
@@ -98,6 +120,8 @@ export default function Projects() {
                 </div>
             }
             />
+            <h1 className="font-weight-light">Certificates</h1>
+            <hr></hr>
             {/* Best Student Card */}
             <Card 
             name={"Jubilee Hills Public School's Best Student of the Year Award"}

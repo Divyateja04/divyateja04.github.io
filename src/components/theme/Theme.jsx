@@ -11,13 +11,15 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-    body: '#212121',
+    body: 'black',
     text: '#FAFAFA',
     toggleBorder: '#6B8096',
-    background: '#999',
+    background: 'black',
     hrColor: 'white',
     texthover: 'white',
-    barColor: '#F5F5DC',
-    btnHover: '#212529',
-    btnColor: '#f8f9fa',
+    barColor: 'white',
+    btnHover: 'white', //#212529
+    btnColor: 'gray', //#f8f9fa
+    card: '#FFF',
+    cardText: '#000',
 }

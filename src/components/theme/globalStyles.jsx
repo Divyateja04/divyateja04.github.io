@@ -62,7 +62,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .card {
-    background-color: ${({ theme }) => theme.body};
+    background-color: ${({ theme }) => theme.card};
+    color: ${({ theme }) => theme.cardText};
   }
 
   `
