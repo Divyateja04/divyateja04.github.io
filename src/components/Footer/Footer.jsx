@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <div>
             <div className="bottombar">
-                    <p style={{ color: 'black'}}>
+                    <p>
                         Made with <BsFillHeartFill /> by Divyateja Pasupuleti
                     </p>
             </div>

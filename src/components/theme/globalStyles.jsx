@@ -66,4 +66,11 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.cardText};
   }
 
+  .active, .link:hover{
+    color:  ${({ theme }) => theme.btnColor};
+  }
+
+  .bottombar p{
+    color:  ${({ theme }) => theme.btnColor};
+  }
   `

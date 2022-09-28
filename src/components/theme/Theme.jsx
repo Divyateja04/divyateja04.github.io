@@ -1,27 +1,27 @@
 export const lightTheme = {
-    body: '#006064',
-    text: '#FFF',
-    toggleBorder: '#FFF',
+    body: '#FAFAFA',
+    text: '#000',
+    toggleBorder: '#000',
     background: '#363537',
-    hrColor: '#FFF',
-    texthover: '#FFF',
-    barColor: 'white',
+    hrColor: '#000',
+    texthover: '#000',
+    barColor: '#FFF',
     btnHover: '#363537',
-    btnColor: '#FFF',
+    btnColor: '#000',
     card: '#000',
     cardText: '#fff',
 }
 
 export const darkTheme = {
-    body: 'black',
-    text: '#FAFAFA',
+    body: '#000',
+    text: '#FFF',
     toggleBorder: '#6B8096',
-    background: 'black',
-    hrColor: 'white',
-    texthover: 'white',
-    barColor: 'white',
-    btnHover: 'white', //#212529
-    btnColor: 'gray', //#f8f9fa
+    background: '#FFF',
+    hrColor: '#FFF',
+    texthover: '#000',
+    barColor: '#000',
+    btnHover: '#FFF',
+    btnColor: '#FFF',
     card: '#FFF',
     cardText: '#000',
 }

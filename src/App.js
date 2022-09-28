@@ -19,7 +19,7 @@ const App = () => {
               <Switch>
               <div className="sections">
                 <div style={{ position: 'fixed'}}>
-                  <Particles height="100vh" width="100vw" params={particlesConfig} />
+                  {/* <Particles height="100vh" width="100vw" params={particlesConfig} /> */}
                 </div>
                 <Route path="/" exact component={() => <Home />} />
                 <Route path="/about" exact component={() => <About />} />
