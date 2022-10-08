@@ -6,10 +6,11 @@ export const lightTheme = {
     hrColor: '#000',
     texthover: '#000',
     barColor: '#FFF',
-    btnHover: '#363537',
+    btnHover: '#FFF',
     btnColor: '#000',
     card: '#000',
     cardText: '#fff',
+    invert: 0
 }
 
 export const darkTheme = {
@@ -20,8 +21,9 @@ export const darkTheme = {
     hrColor: '#FFF',
     texthover: '#000',
     barColor: '#000',
-    btnHover: '#FFF',
+    btnHover: '#000',
     btnColor: '#FFF',
     card: '#FFF',
     cardText: '#000',
+    invert: 100
 }

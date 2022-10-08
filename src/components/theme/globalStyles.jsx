@@ -30,14 +30,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .mybtn-outline {
-    color: ${({ theme }) => theme.btnColor};
-    border-color: ${({ theme }) => theme.btnColor};
+    color: ${({ theme }) => theme.body};
+    border-color: ${({ theme }) => theme.body};
   }
   
   .mybtn-outline:hover {
-    color: ${({ theme }) => theme.btnHover};
-    background-color: ${({ theme }) => theme.btnColor};
-    border-color: ${({ theme }) => theme.btnColor};
+    color: ${({ theme }) => theme.btnColor};
+    background-color: ${({ theme }) => theme.body};
+    border-color: ${({ theme }) => theme.body};
   }
   
   .mybtn-outline:focus, .mybtn-outline.focus {
@@ -72,5 +72,9 @@ export const GlobalStyles = createGlobalStyle`
 
   .bottombar p{
     color:  ${({ theme }) => theme.btnColor};
+  }
+
+  .invert {
+    filter: invert(${({ theme }) => theme.invert}%);
   }
   `

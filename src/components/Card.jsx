@@ -3,7 +3,7 @@ import 'tachyons';
 
 export default function Card({ name, imgLoc, description, awards, url, repo }) {
     return (
-        <div className="tc dib br3 pa3 ma2 bw2 shadow-5 card">
+        <div className="tc dib br3 pa0 ma2 bw2 shadow-5 card">
             <img src= {imgLoc} alt="Project" style={{"width": "80%"}}></img>
             <div>
                 <h2>{name}</h2>
