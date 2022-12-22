@@ -29,6 +29,38 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
   }
 
+  .homemybtn-outline {
+    color: ${({ theme }) => theme.btnColor};
+    border-color: ${({ theme }) => theme.btnColor};
+  }
+  
+  .homemybtn-outline:hover {
+    color: ${({ theme }) => theme.body};
+    background-color: ${({ theme }) => theme.btnColor};
+    border-color: ${({ theme }) => theme.btnColor};
+  }
+
+  .homemybtn-outline:focus, .homemybtn-outline.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+  
+  .homemybtn-outline.disabled, .homemybtn-outline:disabled {
+    color: ${({ theme }) => theme.btnColor};
+    background-color: transparent;
+  }
+  
+  .homemybtn-outline:not(:disabled):not(.disabled):active, .homemybtn-outline:not(:disabled):not(.disabled).active,
+  .show > .homemybtn-outline.dropdown-toggle {
+    color: ${({ theme }) => theme.btnHover};
+    background-color: ${({ theme }) => theme.btnColor};
+    border-color: ${({ theme }) => theme.btnColor};
+  }
+  
+  .homemybtn-outline:not(:disabled):not(.disabled):active:focus, .homemybtn-outline:not(:disabled):not(.disabled).active:focus,
+  .show > .homemybtn-outline.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+
   .mybtn-outline {
     color: ${({ theme }) => theme.body};
     border-color: ${({ theme }) => theme.body};
