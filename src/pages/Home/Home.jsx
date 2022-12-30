@@ -33,6 +33,9 @@ class Home extends React.Component {
                                 <a href="#/about" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline" >About Me</button></a>
                                 <a href="#/projects" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline">Projects</button></a>
                                 <a href="#/contact" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline">Contact Me</button></a>
+
+                                <br />
+                                <a href="#/notes" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline">Notes and Resources :)</button></a>
                             </div>
                         </div>
                     </div>
