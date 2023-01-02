@@ -13,11 +13,15 @@ export default function Notes() {
             link: "https://drive.google.com/drive/folders/1CnTsW7eex3adZY0TgLsTeNPRF2RTX4y4?usp=share_link"
         },
         {
-            name: "BITS Year 2 Sem 1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL",
+            name: "BITS Year 2 Sem 1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL (Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)",
             link: "https://drive.google.com/drive/folders/1A1jvtyWRMzu14oq1wc6vFxeS-tKJrQEN?usp=sharing"
         },
     ];
     const year1 = [
+        {
+            name: "Mathematics 1 - M1 Notes",
+            link: "https://drive.google.com/file/d/1d-fdqKVl5kTf3Yx649teiAooxAxWMuiR/view?usp=share_link"
+        },
         {
             name: "C Programming - CP Notes",
             link: "/notes/CP/cp.html"
