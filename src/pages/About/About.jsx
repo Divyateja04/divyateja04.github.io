@@ -24,7 +24,7 @@ export default function About() {
                                 about computers, how they work, and how we can program them to make our lives better.
                             </p>
                             <br />
-                            <a href="https://docs.google.com/document/d/1eip_mkC91UNcfOs2IGFC7Fx0trhtL18XzPjNDx5ar6g/edit?usp=sharing" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline" style={{ "width": "80%" }}>View My Resume</button></a>
+                            <a href="https://drive.google.com/drive/folders/1j9LecEcO558K2Cf3HxV8X0IYYntAr8x_?usp=sharing" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline" style={{ "width": "80%" }}>View My Resume</button></a>
 
                             <h1 className="font-weight-light">Education</h1>
 
