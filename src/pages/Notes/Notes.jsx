@@ -18,6 +18,10 @@ export default function Notes() {
             name: "BITS Year 2 Sem 1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL (Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)",
             link: "https://drive.google.com/drive/folders/1A1jvtyWRMzu14oq1wc6vFxeS-tKJrQEN?usp=sharing"
         },
+        {
+            name: "Linguistics Incomplete Notes",
+            link: "/notes/Linguistics/Linguistics.html"
+        },
     ];
     const year1 = [
         {
