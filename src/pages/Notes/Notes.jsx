@@ -22,6 +22,10 @@ export default function Notes() {
             name: "Linguistics Incomplete Notes",
             link: "/notes/Linguistics/Linguistics.html"
         },
+        {
+            name: "FoFa Incomplete Notes",
+            link: "/notes/FoFa/FoFa.html"
+        },
     ];
     const year1 = [
         {
