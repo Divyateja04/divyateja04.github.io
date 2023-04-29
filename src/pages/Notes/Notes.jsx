@@ -6,28 +6,20 @@ export default function Notes() {
     const [input, setInput] = useState("");
     const groupdata = [
         {
-            name: "BITS Year 1 Sem 1 Resources - MeOW, EEE, M1, Chem, Workshop",
+            name: "1-1 Resources - MeOW, EEE, M1, Chem, Workshop",
             link: "https://drive.google.com/drive/folders/1CnTsW7eex3adZY0TgLsTeNPRF2RTX4y4?usp=share_link"
         },
         
         {
-            name: "BITS Year 1 Sem 2 Resources - CP, TRW, Bio, M2, PnS, EG",
+            name: "1-2 Resources - CP, TRW, Bio, M2, PnS, EG",
             link: "https://drive.google.com/drive/folders/1bkFqiiPP1bN-w-ezvtQ5j5mSkyNTttaM?usp=share_link"
         },
         {
-            name: "BITS Year 2 Sem 1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL (Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)",
+            name: "2-1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL",
             link: "https://drive.google.com/drive/folders/1A1jvtyWRMzu14oq1wc6vFxeS-tKJrQEN?usp=sharing"
         },
-        {
-            name: "Linguistics Incomplete Notes",
-            link: "/notes/Linguistics/Linguistics.html"
-        },
-        {
-            name: "FoFa Incomplete Notes",
-            link: "/notes/FoFa/FoFa.html"
-        },
     ];
-    const year1 = [
+    const coursewise = [
         {
             name: "Mathematics 1 - M1 Notes",
             link: "https://drive.google.com/file/d/1d-fdqKVl5kTf3Yx649teiAooxAxWMuiR/view?usp=share_link"
@@ -48,9 +40,6 @@ export default function Notes() {
             name: "Technical Report Writing - TRW Notes",
             link: "/notes/TRW/trw.html"
         },
-    ]
-
-    const year2 = [
         {
             name: "Mathematics 3 - M3 Notes",
             link: "https://drive.google.com/file/d/19GvuOCJne0yfholKESraZ54HASAtTUFm/view?usp=share_link"
@@ -70,7 +59,15 @@ export default function Notes() {
         {
             name: "Computer Mediated Communications - CMC Notes",
             link: "/notes/CMC/cmc.html"
-        }
+        },
+        {
+            name: "Linguistics Incomplete Notes",
+            link: "/notes/Linguistics/Linguistics.html"
+        },
+        {
+            name: "FoFa Incomplete Notes",
+            link: "/notes/FoFa/FoFa.html"
+        },
     ]
 
     return (
@@ -86,7 +83,8 @@ export default function Notes() {
                 </div>
                 <div class="cf pa5 flex flex-column justify-center">
                     <div class="p-2">
-                        <h1>Combined Resources</h1>
+                        <h1>BITS Combined Resources</h1>
+                        <h3>(Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)</h3>
                         {
                             groupdata.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
                                 <a href={data.link}><h4 class="ml0 w-100">{data.name}</h4></a>
@@ -96,24 +94,15 @@ export default function Notes() {
                     </div>
 
                     <div class="p-2">
-                        <h1>Year 1</h1>
+                        <h1>Course Wise Notes</h1>
                         {
-                            year1.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
+                            coursewise.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
                                 <a href={data.link}><h4 class="ml0 w-100">{data.name}</h4></a>
                             ))
                         }
                         <hr />
                     </div>
 
-                    <div class="p-2">
-                        <h1>Year 2</h1>
-                        {
-                            year2.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
-                                <a href={data.link}><h4 class="ml0 w-100">{data.name}</h4></a>
-                            ))
-                        }
-                        <hr />
-                    </div>
                 </div>
             </div>
         </>
