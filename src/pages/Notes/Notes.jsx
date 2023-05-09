@@ -15,9 +15,13 @@ export default function Notes() {
             link: "https://drive.google.com/drive/folders/1bkFqiiPP1bN-w-ezvtQ5j5mSkyNTttaM?usp=share_link"
         },
         {
-            name: "2-1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL",
+            name: "2-1 CS Resources - Logic, Disco, DD, M3, PoE, OOPL, CMC",
             link: "https://drive.google.com/drive/folders/1A1jvtyWRMzu14oq1wc6vFxeS-tKJrQEN?usp=sharing"
         },
+        {
+            name: "2-1 Phoenix Resources - EM, EMT, ED, DD, Intro to Dev Studies, EVS",
+            link: "https://drive.google.com/drive/folders/1YWAHsJySYLsQVkQtS-B45JoWUFcuCjBc?usp=share_link"
+        }
     ];
     const coursewise = [
         {
