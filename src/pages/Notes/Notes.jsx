@@ -65,6 +65,10 @@ export default function Notes() {
             link: "/notes/CMC/cmc.html"
         },
         {
+            name: "Globalization Notes",
+            link: "/notes/Glob/Glob.html"
+        },
+        {
             name: "Linguistics Incomplete Notes",
             link: "/notes/Linguistics/Linguistics.html"
         },
