@@ -19,6 +19,10 @@ export default function Notes() {
             link: "https://drive.google.com/drive/folders/1A1jvtyWRMzu14oq1wc6vFxeS-tKJrQEN?usp=sharing"
         },
         {
+            name: "2-2 CS Resources - DSA, DBMS, MPi, ML, Globalization, EVS",
+            link: "https://drive.google.com/drive/folders/1uRiJ7Mrbwtjvm3J5ljPsKzJ3mI5XAyus?usp=share_link"
+        },
+        {
             name: "2-1 Phoenix Resources - EM, EMT, ED, DD, Intro to Dev Studies, EVS",
             link: "https://drive.google.com/drive/folders/1YWAHsJySYLsQVkQtS-B45JoWUFcuCjBc?usp=share_link"
         }
@@ -69,6 +73,10 @@ export default function Notes() {
             link: "/notes/Glob/Glob.html"
         },
         {
+            name: "Machine Learning Notes",
+            link: "https://drive.google.com/file/d/1c-oJ1Qu9ffpk0_X0t9hdkAIH9PslOL0H/view?usp=sharing"
+        },
+        {
             name: "Linguistics Incomplete Notes",
             link: "/notes/Linguistics/Linguistics.html"
         },
@@ -91,17 +99,17 @@ export default function Notes() {
                 </div>
                 <div class="cf pa5 flex flex-column justify-center">
                     <div class="p-2">
-                        <h1>BITS Combined Resources</h1>
-                        <h3>(Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)</h3>
+                        <h1>Redirect to https://handoutsforyou.vercel.app/notes</h1>
+                        {/* <h3>(Contains PYQs and Solutions if available, textbooks, textbook solutions, slides and notes)</h3>
                         {
                             groupdata.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
                                 <a href={data.link}><h4 class="ml0 w-100">{data.name}</h4></a>
                             ))
                         }
-                        <hr />
+                        <hr /> */}
                     </div>
 
-                    <div class="p-2">
+                    {/*<div class="p-2">
                         <h1>Course Wise Notes</h1>
                         {
                             coursewise.filter(d => d.name.toLowerCase().includes(input.toLowerCase())).map(data => (
@@ -109,7 +117,7 @@ export default function Notes() {
                             ))
                         }
                         <hr />
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
