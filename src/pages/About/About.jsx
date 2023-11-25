@@ -30,35 +30,23 @@ export default function About() {
 
                             <hr></hr>
                             <div className="d-flex">
-                                <div className="pa4 tc">
-                                    <RiMedalFill className="br-100 h3 w3 dib" />
-                                </div>
                                 <div className="tc">
-                                    <p className="mb-0">Present</p>
                                     <h5>BITS Pilani, Hyderabad Campus</h5>
-                                    <p className="mb-0">CSE Sophomore</p>
+                                    <p className="">CSE Junior</p>
                                 </div>
                             </div>
 
                             <div className="d-flex">
-                                <div className="pa4 tc">
-                                    <RiMedalFill className="br-100 h3 w3 dib" />
-                                </div>
                                 <div className="tc">
-                                    <p className="mb-0">2021</p>
-                                    <h5>FIITJEE Junior College</h5>
-                                    <p className="mb-0">Higher Secondary Certificate | 98.1%</p>
+                                    <h5>FIITJEE Junior College | 2021</h5>
+                                    <p className="">Higher Secondary Certificate | 98.1%</p>
                                 </div>
                             </div>
 
                             <div className="d-flex">
-                                <div className="pa4 tc">
-                                    <RiMedalFill className="br-100 h3 w3 dib" />
-                                </div>
                                 <div className="tc">
-                                    <p className="mb-0">2019</p>
-                                    <h5>Jubilee Hills Public School</h5>
-                                    <p className="mb-0">Secondary School Certificate | 95.6%</p>
+                                    <h5>Jubilee Hills Public School | 2019</h5>
+                                    <p className="">Secondary School Certificate | 95.6%</p>
                                 </div>
                             </div>
                         </div>
@@ -66,33 +54,33 @@ export default function About() {
                         <div className="col-lg-6">
                             <h1 className="font-weight-light">Experience</h1>
                             <hr></hr>
-                            <div className="justify-between flex flex-row m-0 w-full grid-cols-2">
-                                <div className="p-2 tc align-middle mt-5">
-                                    <BsBriefcase className="p-2 h3 w3 dib" />
+                            <div >
+                                <div className="tc p-4 w-full">
+                                    <h5 className="m-0">Summer Intern (May 2023 - Jul 2023)</h5>
+                                    <p className="m-0">Indian Institute of Remote Sensing, ISRO</p>
                                 </div>
-                                <div className="tc p-4 m-3">
-                                    <p className="m-0">Jul 2022 - PRESENT</p>
-                                    <h5 className="underline m-0">Technical Team</h5>
+                            </div>
+                            <div >
+                                <div className="tc p-4 w-full">
+                                    <h5 className="m-0">Web Developer (Aug 2022 - Sep 2022)</h5>
+                                    <p className="m-0">Acoustic Sensing and Imaging Lab, UiT</p>
+                                </div>
+                            </div>
+                            <div >
+                                <div className="tc p-4 w-full">
+                                    <h5 className="m-0">Technical Team Lead (Jul 2022 - PRESENT)</h5>
                                     <p className="m-0">Student Welfare Division, BITS Pilani, Hyderabad Campus</p>
                                 </div>
                             </div>
-                            <div className="justify-between flex flex-row m-0 w-full grid-cols-2">
-                                <div className="p-2 tc align-middle mt-5">
-                                    <BsBriefcase className="p-2 h3 w3 dib" />
-                                </div>
-                                <div className="tc p-4 m-3">
-                                    <p className="m-0">Jul 2022 - PRESENT</p>
-                                    <h5 className="underline m-0">Joint Secretary</h5>
+                            <div>
+                                <div className="tc p-4 w-full">
+                                    <h5 className="m-0">Joint Secretary (Jul 2022 - Jul 2023)</h5>
                                     <p className="m-0">Automation and Robotics Club, BITS Pilani, Hyderabad Campus</p>
                                 </div>
                             </div>
-                            <div className="justify-between flex flex-row m-0 w-full grid-cols-2">
-                                <div className="p-2 tc align-middle mt-5">
-                                    <BsBriefcase className="p-2 h3 w3 dib" />
-                                </div>
-                                <div className="tc p-4 m-3 w-full">
-                                    <p className="m-0">Dec 2021 - June 2022</p>
-                                    <h5 className="underline m-0">Frontend and Backend Developer</h5>
+                            <div>
+                                <div className="tc p-4 w-full">
+                                    <h5 className="m-0">Full Stack Developer (Dec 2021 - June 2022)</h5>
                                     <p className="m-0">Teenage Concerns, a Mental Health Non Profit Organization</p>
                                 </div>
                             </div>
@@ -161,34 +149,25 @@ export default function About() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="d-flex">
-                                <div className="pa2 tc">
-                                    <IoBookmarks className="h3 w3 dib" />
-                                </div>
                                 <div className="tc">
                                     <h5>CBSE National Science Exhibition 2019</h5>
-                                    <p className="mb-0">First Prize - National Level</p>
+                                    <p className="">First Prize - National Level</p>
                                 </div>
                             </div>
                             <br />
 
                             <div className="d-flex">
-                                <div className="pa2 tc">
-                                    <IoBookmarks className="h3 w3 dib" />
-                                </div>
                                 <div className="tc">
                                     <h5>CBSE School Topper - Computer Science</h5>
-                                    <p className="mb-0">Jubilee Hills Public School</p>
+                                    <p className="">Jubilee Hills Public School</p>
                                 </div>
                             </div>
                             <br />
 
                             <div className="d-flex">
-                                <div className="pa2 tc">
-                                    <IoBookmarks className="h3 w3 dib" />
-                                </div>
                                 <div className="tc">
                                     <h5>Best Student of the Year</h5>
-                                    <p className="mb-0">Jubilee Hills Public School</p>
+                                    <p className="">Jubilee Hills Public School</p>
                                 </div>
                             </div>
                             <br />
@@ -196,23 +175,17 @@ export default function About() {
 
                         <div className="col-lg-6">
                             <div className="d-flex">
-                                <div className="pa2 tc">
-                                    <IoBookmarks className="h3 w3 dib" />
-                                </div>
                                 <div className="tc">
                                     <h5>Virtual Experience Program</h5>
-                                    <p className="mb-0">JP Morgan & Chase</p>
+                                    <p className="">JP Morgan & Chase</p>
                                 </div>
                             </div>
                             <br />
 
                             <div className="d-flex">
-                                <div className="pa2 tc">
-                                    <IoBookmarks className="h3 w3 dib" />
-                                </div>
                                 <div className="tc">
                                     <h5>Student Expert</h5>
-                                    <p className="mb-0">Postman</p>
+                                    <p className="">Postman</p>
                                 </div>
                             </div>
                             <br />
