@@ -22,84 +22,90 @@ export default function Projects() {
                 <div class="cf pa5 flex flex-wrap justify-center">
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={handouts} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">HandoutsForYou.</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">Handouts search engine for BITS Pilani Hyderabad Campus</dd>
-                        </dl>
+                        <a href="https://handoutsforyou.vercel.app">
+                            <dl class="mt2 f6 lh-copy">
+                                <dt class="clip">Title</dt>
+                                <dd class="ml0 w-100">HandoutsForYou.</dd>
+                                <dt class="clip">Description</dt>
+                                <dd class="ml0 gray w-100">Handouts search engine for BITS Pilani Hyderabad Campus</dd>
+                            </dl>
+                        </a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={trackie} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Trackie</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">An Expense and Eval Tracker</dd>
-                        </dl>
+                        <a href="https://github.com/Divyateja04/Trackie">
+                            <dl class="mt2 f6 lh-copy">
+                                <dt class="clip">Title</dt>
+                                <dd class="ml0 w-100">Trackie</dd>
+                                <dt class="clip">Description</dt>
+                                <dd class="ml0 gray w-100">An Expense and Eval Tracker</dd>
+                            </dl>
+                        </a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={teenageconcerns} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100 ttu">Teenage Concerns</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">This project lets anonymous users register and get a mentor assigned to them with whom they can talk about anything they want, say life issues, depression, etc.</dd>
-                        </dl>
+                        <a href="https://github.com/Divyateja04/TeenageConcerns-API-GraphQL">
+                            <dl class="mt2 f6 lh-copy">
+                                <dt class="clip">Title</dt>
+                                <dd class="ml0 w-100 ttu">Teenage Concerns</dd>
+                                <dt class="clip">Description</dt>
+                                <dd class="ml0 gray w-100">This project lets anonymous users register and get a mentor assigned to them with whom they can talk about anything they want, say life issues, depression, etc.</dd>
+                            </dl>
+                        </a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={umoasi} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href="https://www.asilab.eu/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">UMO ASI Website</dd>
                             <dt class="clip">Desc</dt>
                             <dd class="ml0 gray w-100">Website made for UMO ASI - The Arctic University of Norway</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={arcbphc} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href="https://arcbphc.vercel.app/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">ARC Website</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">A blog website, made using NextJS + Tailwind and hosted on Vercel at ARC-BPHC</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={vmwebsite} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href="https://verbamaximus23.vercel.app/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Verbamaximus Website 2021</dd>
+                            <dd class="ml0 w-100">Verbamaximus Website 2022/23</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">Website for a literary fest of BPHC</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={donutbot} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href=""><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">Donut Discord Bot</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">A bot made to help managing discord servers during covid period</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={smartbrainsproj} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href="https://github.com/Divyateja04/smartbrains"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">Smartbrains - Course Project</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">A web app made using node and react to identify faces in a picture</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={robofriendsproj} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
+                        <a href="https://github.com/Divyateja04/robofriends"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">Robofriends - Course Project</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">Just a project made as part of udemy course</dd>
-                        </dl>
+                        </dl></a>
                     </div>
                 </div>
             </article>
@@ -137,7 +143,7 @@ export default function Projects() {
                         </dl>
                     </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
-                        <img src={vmwebsite} class="w-100 db outline black-10" />
+                        <img src={leap} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
                             <dd class="ml0 w-100">Haar cascade-Based Driving Analysis and Scoring System</dd>

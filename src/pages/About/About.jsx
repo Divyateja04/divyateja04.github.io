@@ -3,10 +3,6 @@ import React from 'react';
 import './About.scss';
 import 'tachyons';
 
-import { RiMedalFill } from 'react-icons/ri';
-import { BsBriefcase } from 'react-icons/bs';
-import { IoBookmarks } from 'react-icons/io5';
-
 export default function About() {
 
     return (
@@ -95,54 +91,43 @@ export default function About() {
                     <h1 className="font-weight-light">Skills</h1>
                     <hr></hr>
                     Programming:
-                    <br />
+                    <br /><br />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
                     <br /><br />
-                    <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
-                        <div class="bg-green br-pill h1 shadow-1 w-70 progress-bar" ><p style={{ "font-size": "17px" }}>70%</p></div>
-                    </div>
 
                     I love working with:
-                    <br />
+                    <br /><br />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                     <img alt="logo" className="devicons invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                    <br /><br />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
                     <br /><br />
-                    <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
-                        <div class="bg-green br-pill h1 shadow-1 w-90 progress-bar inverse" ><p style={{ "font-size": "17px" }}>90%</p></div>
-                    </div>
 
                     And have experience working with:
-                    <br />
+                    <br /><br />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
                     <br /><br />
-                    <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
-                        <div class="bg-green br-pill h1 shadow-1 w-50 progress-bar" ><p style={{ "font-size": "17px" }}>50%</p></div>
-                    </div>
 
                     And also some basic knowledge about:
-                    <br />
+                    <br /><br />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" />
                     <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" />
                     <br /><br />
-                    <div class="bg-moon-gray br-pill h1 overflow-y-hidden mb4">
-                        <div class="bg-green br-pill h1 shadow-1 w-30 progress-bar" ><p style={{ "font-size": "17px" }}>30%</p></div>
-                    </div>
 
                     <h1 className="font-weight-light">Achievements<br /> and Certifications</h1>
                     <hr></hr>
