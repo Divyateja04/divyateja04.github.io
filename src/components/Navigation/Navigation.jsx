@@ -31,37 +31,37 @@ const Navigation = (props) => {
                             <div className="right">
                                 <ul>
                                     <li className="link">
-                                        <Link
+                                        <a
                                             className={`link ${props.location.pathname === "/" ? "active" : ""
-                                                }`} to="/"
+                                                }`} href="#"
                                         >
                                             Home
                                             <span className="sr-only">(current)</span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className="link">
-                                        <Link
+                                        <a
                                             className={`link ${props.location.pathname === "/about" ? "active" : ""
-                                                }`} to="about"
+                                                }`} href="#about"
                                         >
                                             About
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className="link">
-                                        <Link
+                                        <a
                                             className={`link ${props.location.pathname === "/projects" ? "active" : ""
-                                                }`} to="projects"
+                                                }`} href="#projects"
                                         >
                                             Projects
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li className="link">
-                                        <Link
+                                        <a
                                             className={`link ${props.location.pathname === "/contact" ? "active" : ""
-                                                }`} to="contact"
+                                                }`} href="#contact"
                                         >
                                             Contact
-                                        </Link>
+                                        </a>
                                     </li>
                                     {/* <li className="link">
                                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">

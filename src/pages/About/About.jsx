@@ -20,29 +20,28 @@ export default function About() {
                                 about computers, how they work, and how we can program them to make our lives better.
                             </p>
                             <br />
-                            <a href="https://drive.google.com/drive/folders/1j9LecEcO558K2Cf3HxV8X0IYYntAr8x_?usp=sharing" className="noTextDecorationHome"><button type="button" className="btn homemybtn-outline" style={{ "width": "80%" }}>View My Resume</button></a>
 
                             <h1 className="font-weight-light">Education</h1>
 
                             <hr></hr>
                             <div className="d-flex">
-                                <div className="tc">
-                                    <h5>BITS Pilani, Hyderabad Campus</h5>
-                                    <p className="">CSE Junior</p>
+                                <div className="tc m-2">
+                                    <h5>BITS Pilani Hyderabad Campus | 2025</h5>
+                                    <p><i>CSE Junior</i></p>
                                 </div>
                             </div>
 
                             <div className="d-flex">
-                                <div className="tc">
+                                <div className="tc m-2">
                                     <h5>FIITJEE Junior College | 2021</h5>
-                                    <p className="">Higher Secondary Certificate | 98.1%</p>
+                                    <p><i>Higher Secondary Certificate | 98.1%</i></p>
                                 </div>
                             </div>
 
                             <div className="d-flex">
-                                <div className="tc">
+                                <div className="tc m-2">
                                     <h5>Jubilee Hills Public School | 2019</h5>
-                                    <p className="">Secondary School Certificate | 95.6%</p>
+                                    <p><i>Secondary School Certificate | 95.6%</i></p>
                                 </div>
                             </div>
                         </div>
@@ -82,52 +81,48 @@ export default function About() {
                             </div>
 
                             <br />
-
-
-
                         </div>
                     </div>
 
                     <h1 className="font-weight-light">Skills</h1>
-                    <hr></hr>
-                    Programming:
-                    <br /><br />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
-                    <br /><br />
-
-                    I love working with:
-                    <br /><br />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-                    <img alt="logo" className="devicons invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                    <br /><br />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
-                    <br /><br />
-
-                    And have experience working with:
-                    <br /><br />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
-                    <br /><br />
-
-                    And also some basic knowledge about:
-                    <br /><br />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" />
-                    <img alt="logo" className="devicons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" />
-                    <br /><br />
+                    <hr />
+                    <div className="container">
+                        <div className="row ">
+                            <div className="col-lg-6">
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+                                <br /><br />
+                            </div>
+                            <div className="col-lg-6">
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+                                <br /><br />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-plain-wordmark.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
+                            </div>
+                        </div>
+                    </div>
 
                     <h1 className="font-weight-light">Achievements<br /> and Certifications</h1>
                     <hr></hr>
@@ -178,6 +173,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
