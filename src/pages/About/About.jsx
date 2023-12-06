@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './About.scss';
+import { useDarkMode } from "../../components/Theme/useDarkMode";
 import 'tachyons';
 
 export default function About() {
@@ -92,16 +93,16 @@ export default function About() {
                             <div className="col-lg-6">
                                 <br /><br />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" />
+                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" />
-                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
                                 <br /><br />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
                                 <br /><br />
-                                <img alt="logo" className={`devicons m-1 ${theme == "dark" && invert}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                                <img alt="logo" className={`devicons m-1 ${theme == "dark" ? 'invert' : ''}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
                                 <br /><br />
@@ -109,9 +110,9 @@ export default function About() {
                             <div className="col-lg-6">
                                 <br /><br />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
-                                <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg" />
+                                <img alt="logo" className={`devicons m-1 ${theme == "dark" ? 'invert' : ''}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
-                                <img alt="logo" className={`devicons m-1 ${theme == "dark" && invert}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
+                                <img alt="logo" className={`devicons m-1 ${theme == "dark" ? 'invert' : ''}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg" />
                                 <br /><br />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" />
                                 <img alt="logo" className="devicons m-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
