@@ -18,6 +18,7 @@ export default function Projects() {
     return (
         <>
             <article>
+                <h1 className="font-weight-light">Projects</h1>
                 <h2 class="f3 fw4 pa2 mv0 m-3">Development Projects</h2>
                 <div class="cf pa5 flex flex-wrap justify-center">
                     <div class="fl w-40 w-25-m w-30-l pa2">
