@@ -13,22 +13,38 @@ import trackie from '../../images/trackie.png';
 import vmwebsite from '../../images/vmwebsite.png';
 import donutbot from '../../images/donutbot.png';
 import handouts from '../../images/handouts.png';
+import oopsie from '../../images/oopsie.png';
 
 export default function Projects() {
     return (
         <>
-            <article>
-                <h1 className="font-weight-light">Projects</h1>
+            <h1 className="font-weight-light">Projects</h1>
+            <div className="container">
                 <h2 class="f3 fw4 pa2 mv0 m-3">Development Projects</h2>
-                <div class="cf pa5 flex flex-wrap justify-center">
+
+                <hr />
+
+                <div class="cf flex flex-wrap justify-center">
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={handouts} class="w-100 db outline black-10" />
                         <a href="https://handoutsforyou.vercel.app">
                             <dl class="mt2 f6 lh-copy">
                                 <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100">HandoutsForYou.</dd>
+                                <dd class="ml0 w-100">Handouts For You.</dd>
                                 <dt class="clip">Description</dt>
                                 <dd class="ml0 gray w-100">Handouts search engine for BITS Pilani Hyderabad Campus</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="fl w-40 w-25-m w-30-l pa2">
+                        <img src={oopsie} class="w-100 db outline black-10" />
+                        <a href="https://github.com/Divyateja04/Oopsie_BITS_CSF213">
+                            <dl class="mt2 f6 lh-copy">
+                                <dt class="clip">Title</dt>
+                                <dd class="ml0 w-100">Oopsie</dd>
+                                <dt class="clip">Description</dt>
+                                <dd class="ml0 gray w-100">A ready-to-scale, web application that supported placing orders, order status, inventory management, Admin, Manager, and User functionality
+                                    using and authentication using Spring Secure</dd>
                             </dl>
                         </a>
                     </div>
@@ -109,11 +125,12 @@ export default function Projects() {
                         </dl></a>
                     </div>
                 </div>
-            </article>
+            </div>
             {/* ================================================================================================= */}
-            <article>
+            <div className="container">
                 <h2 class="f3 fw4 pa3 mv0">Robotics Projects</h2>
-                <div class="cf pa5 flex flex-wrap justify-center">
+                <hr />
+                <div class="cf flex flex-wrap justify-center">
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={aimbulance} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
@@ -162,7 +179,7 @@ export default function Projects() {
                         </dl>
                     </div>
                 </div>
-            </article>
+            </div>
         </>
     )
 }
