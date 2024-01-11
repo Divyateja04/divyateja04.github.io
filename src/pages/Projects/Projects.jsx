@@ -3,8 +3,7 @@ import React from 'react';
 import windproject from '../../images/windproject.png';
 import aimbulance from '../../images/aimbulance.jpg';
 import waviour from '../../images/waviour.jpg';
-import smartbrainsproj from '../../images/smartbrainsproj.png';
-import robofriendsproj from '../../images/robofriendsproj.png';
+import quizapp from '../../images/quizapp.png';
 import teenageconcerns from '../../images/teenageconcerns.png';
 import umoasi from '../../images/umoasi.png';
 import arcbphc from '../../images/arcbphc.png';
@@ -25,6 +24,17 @@ export default function Projects() {
                 <hr />
 
                 <div class="cf flex flex-wrap justify-center">
+                    <div class="fl w-40 w-25-m w-30-l pa2">
+                        <img src={quizapp} class="w-100 db outline black-10" />
+                        <a href="https://quizapp-ten-swart.vercel.app/">
+                            <dl class="mt2 f6 lh-copy">
+                                <dt class="clip">Title</dt>
+                                <dd class="ml0 w-100">Quiz App.</dd>
+                                <dt class="clip">Description</dt>
+                                <dd class="ml0 gray w-100">A secure and user friendly quiz app interface that detects malpractices and auto submits the user's response. It can detect tab changes and window changes as well.</dd>
+                            </dl>
+                        </a>
+                    </div>
                     <div class="fl w-40 w-25-m w-30-l pa2">
                         <img src={handouts} class="w-100 db outline black-10" />
                         <a href="https://handoutsforyou.vercel.app">
@@ -104,24 +114,6 @@ export default function Projects() {
                             <dd class="ml0 w-100">Donut Discord Bot</dd>
                             <dt class="clip">Description</dt>
                             <dd class="ml0 gray w-100">A bot made to help managing discord servers during covid period</dd>
-                        </dl></a>
-                    </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
-                        <img src={smartbrainsproj} class="w-100 db outline black-10" />
-                        <a href="https://github.com/Divyateja04/smartbrains"><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Smartbrains - Course Project</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">A web app made using node and react to identify faces in a picture</dd>
-                        </dl></a>
-                    </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
-                        <img src={robofriendsproj} class="w-100 db outline black-10" />
-                        <a href="https://github.com/Divyateja04/robofriends"><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Robofriends - Course Project</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">Just a project made as part of udemy course</dd>
                         </dl></a>
                     </div>
                 </div>
