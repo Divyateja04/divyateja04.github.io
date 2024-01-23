@@ -24,7 +24,7 @@ export default function Projects() {
                 <hr />
 
                 <div class="cf flex flex-wrap justify-center">
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={quizapp} class="w-100 db outline black-10" />
                         <a href="https://quizapp-ten-swart.vercel.app/">
                             <dl class="mt2 f6 lh-copy">
@@ -35,7 +35,7 @@ export default function Projects() {
                             </dl>
                         </a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={handouts} class="w-100 db outline black-10" />
                         <a href="https://handoutsforyou.vercel.app">
                             <dl class="mt2 f6 lh-copy">
@@ -46,7 +46,7 @@ export default function Projects() {
                             </dl>
                         </a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={oopsie} class="w-100 db outline black-10" />
                         <a href="https://github.com/Divyateja04/Oopsie_BITS_CSF213">
                             <dl class="mt2 f6 lh-copy">
@@ -58,7 +58,7 @@ export default function Projects() {
                             </dl>
                         </a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={trackie} class="w-100 db outline black-10" />
                         <a href="https://github.com/Divyateja04/Trackie">
                             <dl class="mt2 f6 lh-copy">
@@ -69,7 +69,7 @@ export default function Projects() {
                             </dl>
                         </a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={teenageconcerns} class="w-100 db outline black-10" />
                         <a href="https://github.com/Divyateja04/TeenageConcerns-API-GraphQL">
                             <dl class="mt2 f6 lh-copy">
@@ -80,7 +80,7 @@ export default function Projects() {
                             </dl>
                         </a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={umoasi} class="w-100 db outline black-10" />
                         <a href="https://www.asilab.eu/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -89,7 +89,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">Website made for UMO ASI - The Arctic University of Norway</dd>
                         </dl></a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={arcbphc} class="w-100 db outline black-10" />
                         <a href="https://arcbphc.vercel.app/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -98,7 +98,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">A blog website, made using NextJS + Tailwind and hosted on Vercel at ARC-BPHC</dd>
                         </dl></a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={vmwebsite} class="w-100 db outline black-10" />
                         <a href="https://verbamaximus23.vercel.app/"><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -107,7 +107,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">Website for a literary fest of BPHC</dd>
                         </dl></a>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={donutbot} class="w-100 db outline black-10" />
                         <a href=""><dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -123,7 +123,7 @@ export default function Projects() {
                 <h2 class="f3 fw4 pa3 mv0">Robotics Projects</h2>
                 <hr />
                 <div class="cf flex flex-wrap justify-center">
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={aimbulance} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -134,7 +134,7 @@ export default function Projects() {
                                 out forms for them</dd>
                         </dl>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={waviour} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -143,7 +143,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">A device that saves people from drowning in the ocean</dd>
                         </dl>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={windproject} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -152,7 +152,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">In house science exhibition winner :)</dd>
                         </dl>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={leap} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
@@ -161,7 +161,7 @@ export default function Projects() {
                             <dd class="ml0 gray w-100">A Simple Analysis System that judges you based on your driving skills and helps you drive safer</dd>
                         </dl>
                     </div>
-                    <div class="fl w-40 w-25-m w-30-l pa2">
+                    <div class="fl w-100-m w-40-l pa2">
                         <img src={leap} class="w-100 db outline black-10" />
                         <dl class="mt2 f6 lh-copy">
                             <dt class="clip">Title</dt>
