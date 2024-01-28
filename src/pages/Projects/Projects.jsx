@@ -15,6 +15,91 @@ import handouts from '../../images/handouts.png';
 import oopsie from '../../images/oopsie.png';
 
 export default function Projects() {
+    const projectsData = [
+        {
+            title: 'Quiz App.',
+            imageSrc: quizapp, // Replace with the actual path
+            description: 'A secure and user-friendly quiz app interface that detects malpractices and auto-submits the user\'s response. It can detect tab changes and window changes as well.',
+            link: 'https://quizapp-ten-swart.vercel.app/',
+        },
+        {
+            title: 'Handouts For You.',
+            imageSrc: handouts, // Replace with the actual path
+            description: 'Handouts search engine for BITS Pilani Hyderabad Campus',
+            link: 'https://handoutsforyou.vercel.app',
+        },
+        {
+            title: 'Oopsie',
+            imageSrc: oopsie,// Replace with the actual path
+            description: 'A ready-to-scale, web application that supported placing orders, order status, inventory management, Admin, Manager, and User functionality using and authentication using Spring Secure',
+            link: 'https://github.com/Divyateja04/Oopsie_BITS_CSF213',
+        },
+        {
+            title: 'Trackie',
+            imageSrc: trackie, // Replace with the actual path
+            description: 'An Expense and Eval Tracker',
+            link: 'https://github.com/Divyateja04/Trackie',
+        },
+        {
+            title: 'Teenage Concerns',
+            imageSrc: teenageconcerns, // Replace with the actual path
+            description: 'This project lets anonymous users register and get a mentor assigned to them with whom they can talk about anything they want, say life issues, depression, etc.',
+            link: 'https://github.com/Divyateja04/TeenageConcerns-API-GraphQL',
+        },
+        {
+            title: 'UMO ASI Website',
+            imageSrc: umoasi,// Replace with the actual path
+            description: 'Website made for UMO ASI - The Arctic University of Norway',
+            link: 'https://www.asilab.eu/',
+        },
+        {
+            title: 'ARC Website',
+            imageSrc: arcbphc, // Replace with the actual path
+            description: 'A blog website, made using NextJS + Tailwind and hosted on Vercel at ARC-BPHC',
+            link: 'https://arcbphc.vercel.app/',
+        },
+        {
+            title: 'Verbamaximus Website 2022/23',
+            imageSrc: vmwebsite, // Replace with the actual path
+            description: 'Website for a literary fest of BPHC',
+            link: 'https://verbamaximus23.vercel.app/',
+        },
+        {
+            title: 'Donut Discord Bot',
+            imageSrc: donutbot, // Replace with the actual path
+            description: 'A bot made to help managing discord servers during the covid period',
+            link: '', // Replace with the actual link
+        },
+    ];
+
+    const roboticsProjects = [
+        {
+            title: 'Aimbulance',
+            imageSrc: aimbulance, // Replace with the actual path
+            description: 'An Automatic Ambulance system that uses drones and security camera systems to automatically identify accidents and report them to the nearest hospital and also fill out forms for them',
+        },
+        {
+            title: 'Waviour',
+            imageSrc: waviour, // Replace with the actual path
+            description: 'A device that saves people from drowning in the ocean',
+        },
+        {
+            title: 'Prototype for a Wind-driven Power System',
+            imageSrc: windproject, // Replace with the actual path
+            description: 'In-house science exhibition winner :)',
+        },
+        {
+            title: 'Haar Cascade-Based Driving Analysis and Scoring System',
+            imageSrc: leap, // Replace with the actual path
+            description: 'A Simple Analysis System that judges you based on your driving skills and helps you drive safer',
+        },
+        {
+            title: 'Leap Motion Controller Based Robot',
+            imageSrc: leap, // Replace with the actual path
+            description: 'Innovative RC car-esque robot which is controlled with the motions of one’s hand alone',
+        },
+    ];
+
     return (
         <>
             <h1 className="font-weight-light">Projects</h1>
@@ -22,100 +107,27 @@ export default function Projects() {
                 <h2 class="f3 fw4 pa2 mv0 m-3">Development Projects</h2>
 
                 <hr />
-
-                <div class="cf flex flex-wrap justify-center">
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={quizapp} class="w-100 db outline black-10" />
-                        <a href="https://quizapp-ten-swart.vercel.app/">
-                            <dl class="mt2 f6 lh-copy">
-                                <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100">Quiz App.</dd>
-                                <dt class="clip">Description</dt>
-                                <dd class="ml0 gray w-100">A secure and user friendly quiz app interface that detects malpractices and auto submits the user's response. It can detect tab changes and window changes as well.</dd>
-                            </dl>
-                        </a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={handouts} class="w-100 db outline black-10" />
-                        <a href="https://handoutsforyou.vercel.app">
-                            <dl class="mt2 f6 lh-copy">
-                                <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100">Handouts For You.</dd>
-                                <dt class="clip">Description</dt>
-                                <dd class="ml0 gray w-100">Handouts search engine for BITS Pilani Hyderabad Campus</dd>
-                            </dl>
-                        </a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={oopsie} class="w-100 db outline black-10" />
-                        <a href="https://github.com/Divyateja04/Oopsie_BITS_CSF213">
-                            <dl class="mt2 f6 lh-copy">
-                                <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100">Oopsie</dd>
-                                <dt class="clip">Description</dt>
-                                <dd class="ml0 gray w-100">A ready-to-scale, web application that supported placing orders, order status, inventory management, Admin, Manager, and User functionality
-                                    using and authentication using Spring Secure</dd>
-                            </dl>
-                        </a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={trackie} class="w-100 db outline black-10" />
-                        <a href="https://github.com/Divyateja04/Trackie">
-                            <dl class="mt2 f6 lh-copy">
-                                <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100">Trackie</dd>
-                                <dt class="clip">Description</dt>
-                                <dd class="ml0 gray w-100">An Expense and Eval Tracker</dd>
-                            </dl>
-                        </a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={teenageconcerns} class="w-100 db outline black-10" />
-                        <a href="https://github.com/Divyateja04/TeenageConcerns-API-GraphQL">
-                            <dl class="mt2 f6 lh-copy">
-                                <dt class="clip">Title</dt>
-                                <dd class="ml0 w-100 ttu">Teenage Concerns</dd>
-                                <dt class="clip">Description</dt>
-                                <dd class="ml0 gray w-100">This project lets anonymous users register and get a mentor assigned to them with whom they can talk about anything they want, say life issues, depression, etc.</dd>
-                            </dl>
-                        </a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={umoasi} class="w-100 db outline black-10" />
-                        <a href="https://www.asilab.eu/"><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">UMO ASI Website</dd>
-                            <dt class="clip">Desc</dt>
-                            <dd class="ml0 gray w-100">Website made for UMO ASI - The Arctic University of Norway</dd>
-                        </dl></a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={arcbphc} class="w-100 db outline black-10" />
-                        <a href="https://arcbphc.vercel.app/"><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">ARC Website</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">A blog website, made using NextJS + Tailwind and hosted on Vercel at ARC-BPHC</dd>
-                        </dl></a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={vmwebsite} class="w-100 db outline black-10" />
-                        <a href="https://verbamaximus23.vercel.app/"><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Verbamaximus Website 2022/23</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">Website for a literary fest of BPHC</dd>
-                        </dl></a>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={donutbot} class="w-100 db outline black-10" />
-                        <a href=""><dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Donut Discord Bot</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">A bot made to help managing discord servers during covid period</dd>
-                        </dl></a>
-                    </div>
+                <div className="cf flex flex-wrap justify-center">
+                    {projectsData.map((project, index) => (
+                        <div key={index} className="fl w-100-m w-40-l pa2">
+                            <img src={project.imageSrc} className="w-100 db outline black-10" alt={`Project ${index + 1}`} />
+                            {project.link ? <a href={project.link}>
+                                <dl className="mt2 f6 lh-copy">
+                                    <dt className="clip">Title</dt>
+                                    <dd className="ml0 w-100">{project.title}</dd>
+                                    <dt className="clip">Description</dt>
+                                    <dd className="ml0 gray w-100">{project.description}</dd>
+                                </dl>
+                            </a> : <a href={project.link}>
+                                <dl className="mt2 f6 lh-copy">
+                                    <dt className="clip">Title</dt>
+                                    <dd className="ml0 w-100">{project.title}</dd>
+                                    <dt className="clip">Description</dt>
+                                    <dd className="ml0 gray w-100">{project.description}</dd>
+                                </dl>
+                            </a>}
+                        </div>
+                    ))}
                 </div>
             </div>
             {/* ================================================================================================= */}
@@ -123,53 +135,26 @@ export default function Projects() {
                 <h2 class="f3 fw4 pa3 mv0">Robotics Projects</h2>
                 <hr />
                 <div class="cf flex flex-wrap justify-center">
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={aimbulance} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Aimbulance</dd>
-                            <dt class="clip">Desc</dt>
-                            <dd class="ml0 gray w-100">An Automatic Ambulance system that uses drones and security camera systems
-                                to automatically identify accidents and report them to the nearest hospital and also fill
-                                out forms for them</dd>
-                        </dl>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={waviour} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100 ttu">Waviour</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">A device that saves people from drowning in the ocean</dd>
-                        </dl>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={windproject} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Prototype for an wind-driven power system</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">In house science exhibition winner :)</dd>
-                        </dl>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={leap} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Haar cascade-Based Driving Analysis and Scoring System</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">A Simple Analysis System that judges you based on your driving skills and helps you drive safer</dd>
-                        </dl>
-                    </div>
-                    <div class="fl w-100-m w-40-l pa2">
-                        <img src={leap} class="w-100 db outline black-10" />
-                        <dl class="mt2 f6 lh-copy">
-                            <dt class="clip">Title</dt>
-                            <dd class="ml0 w-100">Leap Motion Controller Based Robot</dd>
-                            <dt class="clip">Description</dt>
-                            <dd class="ml0 gray w-100">Innovative RC car-esque robot which is controlled with the motions of one’s hand alone</dd>
-                        </dl>
-                    </div>
+                    {roboticsProjects.map((project, index) => (
+                        <div key={index} className="fl w-100-m w-40-l pa2">
+                            <img src={project.imageSrc} className="w-100 db outline black-10" alt={`Project ${index + 1}`} />
+                            {project.link ? <a href={project.link}>
+                                <dl className="mt2 f6 lh-copy">
+                                    <dt className="clip">Title</dt>
+                                    <dd className="ml0 w-100">{project.title}</dd>
+                                    <dt className="clip">Description</dt>
+                                    <dd className="ml0 gray w-100">{project.description}</dd>
+                                </dl>
+                            </a> : <a href={project.link}>
+                                <dl className="mt2 f6 lh-copy">
+                                    <dt className="clip">Title</dt>
+                                    <dd className="ml0 w-100">{project.title}</dd>
+                                    <dt className="clip">Description</dt>
+                                    <dd className="ml0 gray w-100">{project.description}</dd>
+                                </dl>
+                            </a>}
+                        </div>
+                    ))}
                 </div>
             </div>
         </>

@@ -7,6 +7,41 @@ import 'tachyons';
 export default function About() {
     const [theme, themeToggler] = useDarkMode();
 
+    const achievementsData = [
+        {
+            "title": "National Finalist",
+            "subtitle": "IRIS National Fair"
+        },
+        {
+            "title": "Best Student Award 2018-19",
+            "subtitle": "Issued by Jubilee Hills Public School"
+        },
+        {
+            "title": "CBSE School Topper - Computer Science",
+            "subtitle": "Issued by Jubilee Hills Public School"
+        },
+        {
+            "title": "JNNSMEE Exhibition Nationalist",
+            "subtitle": "Issued by NCERT · Oct 2019"
+        },
+        {
+            "title": "NIRD RISC 2019 - Special Recognition Award",
+            "subtitle": "Issued by National Institute of Rural Development and Panchayati Raj (NIRDPR) · Sep 2019"
+        },
+        {
+            "title": "UCO National Ranker",
+            "subtitle": "Issued by Unified Council · Feb 2019"
+        },
+        {
+            "title": "CBSE National Science Exhibition - 1st Prize",
+            "subtitle": "Issued by Central Board of Secondary Education · Feb 2019"
+        },
+        {
+            "title": "NIRD RISC 2018 - 1st Prize",
+            "subtitle": "Issued by National Institute of Rural Development and Panchayati Raj (NIRDPR) · Aug 2018"
+        }
+    ];
+
     return (
         <div>
             <div className="about">
@@ -129,48 +164,18 @@ export default function About() {
                     <h1 className="font-weight-light">Achievements<br /> and Certifications</h1>
                     <hr></hr>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="d-flex">
-                                <div className="tc">
-                                    <h5>CBSE National Science Exhibition 2019</h5>
-                                    <p className="">First Prize - National Level</p>
+                        <div className="col-lg-12">
+                            {achievementsData.map((achievement, index) => (
+                                <div key={index}>
+                                    <div className="d-flex">
+                                        <div className="tc">
+                                            <h5>{achievement.title}</h5>
+                                            <p className="">{achievement.subtitle}</p>
+                                        </div>
+                                    </div>
+                                    <br />
                                 </div>
-                            </div>
-                            <br />
-
-                            <div className="d-flex">
-                                <div className="tc">
-                                    <h5>CBSE School Topper - Computer Science</h5>
-                                    <p className="">Jubilee Hills Public School</p>
-                                </div>
-                            </div>
-                            <br />
-
-                            <div className="d-flex">
-                                <div className="tc">
-                                    <h5>Best Student of the Year</h5>
-                                    <p className="">Jubilee Hills Public School</p>
-                                </div>
-                            </div>
-                            <br />
-                        </div>
-
-                        <div className="col-lg-6">
-                            <div className="d-flex">
-                                <div className="tc">
-                                    <h5>Virtual Experience Program</h5>
-                                    <p className="">JP Morgan & Chase</p>
-                                </div>
-                            </div>
-                            <br />
-
-                            <div className="d-flex">
-                                <div className="tc">
-                                    <h5>Student Expert</h5>
-                                    <p className="">Postman</p>
-                                </div>
-                            </div>
-                            <br />
+                            ))}
                         </div>
                     </div>
                 </div>
