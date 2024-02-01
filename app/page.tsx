@@ -30,7 +30,7 @@ export default function Home() {
 				<div className="w-full flex items-center justify-center">
 					<div className="flex flex-wrap justify-center gap-4 max-w-xl">
 						{siteConfig.skillsData.map((item, index) => (
-							<Image alt="logo" className={`${item.invert && "dark:invert"} h-10 w-10 m-2 transform transition-transform hover:scale-150`} src={item.href} key={index} />
+							<Image alt="logo" className={`${item.invert && "dark:invert"} h-10 w-10 m-2 transform transition-transform hover:scale-150`} src={item.href} key={index} width={0} height={0} />
 						))}
 					</div>
 				</div>

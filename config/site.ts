@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
 	name: "Divyateja Pasupuleti",
-	description: "Make beautiful websites regardless of your design experience.",
+	description: "Hello there, I am Divyateja Pasupuleti",
 	navItems: [
 
 	],
@@ -69,7 +69,13 @@ export const siteConfig = {
 			organization: "BITS Pilani, Hyderabad Campus",
 			post: "Tech Lead - Student Welfare Division",
 			date: "Jul 2022 - Present · 1 yr 8 mos",
-			description: "The SWD Nucleus manages services like giving migration certificates, ID Cards, Fee Reports and conducts Mess and Hostel Allotment based on student's personal preferences. I also made a QR Code system for entry and exit into annual college festival shows to ensure better Crowd Control and saved a lot of time. I also made a wing allotment software that takes input from all the students and then matches them to the wing of their choice based on a priority order, and if there's no wing of that size available, then the wing can be allotted either in a larger wing or the wing will be split into smaller places and if someone filled in wrong details, they get sent into randomize pool"
+			description: `The SWD Nucleus manages services like giving migration certificates, 
+			ID Cards, Fee Reports and conducts Mess and Hostel Allotment based on student's personal
+			preferences. I also Introduced a  for the college festivals, resulting in a 50% reduction in waiting time for attendees
+			. I also made a wing allotment software that takes input from all the students and then matches them to the wing of their
+			choice based on a priority order, and if there's no wing of that size available, then
+			the wing can be allotted either in a larger wing or the wing will be split into smaller places
+			and if someone filled in wrong details, they get sent into randomize pool`
 		},
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
@@ -87,7 +93,7 @@ export const siteConfig = {
 			organization: "Automation And Robotics Club - BITS Pilani, Hyderabad Campus",
 			post: "Joint Secretary",
 			date: "Jul 2022 - May 2023 · 11 mos",
-			description: "1 yr 2 mos"
+			description: "Responsible for managing club projects, inventory, and tech expos and held a workshop during the technical fest, which had 100+ registrations."
 		},
 		{
 			organization: "UiT- The Arctic University of Norway",
