@@ -21,7 +21,7 @@ export const siteConfig = {
 		{
 			college: "BITS Pilani Hyderabad Campus",
 			year: 2025,
-			subtitle: "CSE Junior",
+			subtitle: "Computer Science Junior",
 		},
 		{
 			college: "FIITJEE Junior College",
