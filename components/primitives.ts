@@ -22,7 +22,7 @@ export const title = tv({
 		},
 	},
 	defaultVariants: {
-		size: "md",
+		size: "lg",
 	},
 	compoundVariants: [
 		{
@@ -47,7 +47,7 @@ export const subtitle = tv({
 			true: "!w-full",
 		},
 	},
-  defaultVariants:{
-    fullWidth: true
-  }
+	defaultVariants: {
+		fullWidth: true
+	}
 });
