@@ -3,13 +3,18 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
 	name: "Divyateja Pasupuleti",
 	description: "Hello there, I am Divyateja Pasupuleti",
-	navItems: [
-
-	],
 	navMenuItems: [
 		{
+			label: "About",
+			href: "#about",
+		},
+		{
+			label: "Experience",
+			href: "#experience",
+		},
+		{
 			label: "Projects",
-			href: "#profile",
+			href: "#projects",
 		},
 	],
 	links: {

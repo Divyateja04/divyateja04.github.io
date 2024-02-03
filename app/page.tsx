@@ -16,7 +16,7 @@ export default function Home() {
 			</div>
 
 			{/* ABOUT SECTION */}
-			<div className="mt-10 w-full">
+			<div className="mt-10 w-full" id="about">
 				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
 				<div className="text-xl">
 					I am currently a 3rd-year undergraduate student in India, and my passion for
@@ -47,7 +47,7 @@ export default function Home() {
 			</div>
 
 			{/* EDUCATION SECTION */}
-			<div className="mt-10 w-full">
+			<div className="mt-10 w-full" id="education">
 				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
 				{siteConfig.educationDetails.map((item, index) => (
 					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-400">
@@ -59,7 +59,7 @@ export default function Home() {
 			</div>
 
 			{/* EXPERIENCE SECTION */}
-			<div className="mt-10 w-full">
+			<div className="mt-10 w-full" id="experience">
 				<h1 className='text-3xl font-bold py-10'>EXPERIENCE</h1>
 				<Accordion>
 					{siteConfig.experienceData.map((item, index) => (
@@ -75,7 +75,7 @@ export default function Home() {
 			</div>
 
 			{/* PROJECTS SECTION */}
-			<div className="mt-10 w-full">
+			<div className="mt-10 w-full" id="projects">
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
 				<div className="grid md:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
