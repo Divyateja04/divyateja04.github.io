@@ -79,34 +79,29 @@ export default function Home() {
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
 				<div className="grid md:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
-						// <div key={index} className="border p-6 rounded-md shadow-md m-4 border-pink-400">
-						// 	<Link href={item.link}>
-						// 		<div className="text-3xl font-bold mb-2">{item.title}</div>
-						// 	</Link>
-						// 	<div className="text-lg">{item.description}</div>
-						// 	<NextImage src={item.imageSrc} alt={item.title} className="mt-4 rounded-md shadow-md" width={0} height={0} layout="responsive" />
-						// </div>
-						<Card isFooterBlurred className="h-[350px] m-6" key={index} >
+						<Card className="relative group h-[300px] m-6 overflow-hidden">
 							<CardHeader className="absolute z-10 top-1 flex-col items-start">
 								<h4 className="text-white/90 font-medium text-xl">{item.title}</h4>
 							</CardHeader>
 							<Image
 								removeWrapper
 								alt="Image"
-								className="z-0 w-full h-full object-cover blur-0 hover:blur-sm"
+								className="z-0 w-full h-full object-contain blur-0 group-hover:blur-md"
 								src={item.imageSrc}
 							/>
-							<CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
+							<CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 transition-transform translate-y-full group-hover:translate-y-0">
 								<div className="flex flex-grow gap-2 items-center">
 									<div className="flex flex-col">
-										<p className="text-tiny text-white/60">{item.description} </p>
+										<p className="text-xl text-white">{item.description}</p>
 									</div>
 								</div>
-								<Button radius="full" size="sm" onClick={() => {
-									window.open(item.link)
-								}}>Visit</Button>
+								<Button radius="full" size="sm" onClick={() => window.open(item.link)}>
+									Visit
+								</Button>
 							</CardFooter>
 						</Card>
+
+
 					))}
 				</div>
 			</div>
