@@ -17,7 +17,7 @@ export default function Home() {
 			<div className="mt-10 w-full">
 				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
 				<div className="text-xl">
-					I'm currently a 3rd-year undergraduate student in India, and my passion for
+					I am currently a 3rd-year undergraduate student in India, and my passion for
 					Computer Science has been with me since my childhood. Growing up, I was always
 					fascinated by computers - understanding how they work and the potential they have
 					when we program them to improve our lives.
@@ -28,13 +28,13 @@ export default function Home() {
 					use his skills to make the world a better place for the socieT.
 					<br />
 					<br />
-					Being in my third year now, I've delved into various aspects of computer science. From learning
+					Being in my third year now, I have delved into various aspects of computer science. From learning
 					different programming languages to exploring algorithms and data structures, my academic
-					journey has been a mix of theory and hands-on experience. I've taken on projects and coursework
+					journey has been a mix of theory and hands-on experience. I have taken on projects and coursework
 					that allowed me to apply my knowledge to real-world problems, honing my practical skills along the way.
 					<br />
 					<br />
-					When I'm not coding, you can find me reading books, watching movies, or building robots. You can find my
+					When I am not coding, you can find me reading books, watching movies, or building robots. You can find my
 					notes at <Link href="https://handoutsforyou.vercel.app" className="underline">Notes @ BPHC</Link>
 				</div>
 
