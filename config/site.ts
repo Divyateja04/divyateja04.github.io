@@ -20,6 +20,8 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/divyateja04",
 		twitter: "https://twitter.com/thedonutcat",
+		linkedin: "https://www.linkedin.com/in/divyateja.pasupuleti/",
+		email: 'divyateja2004@gmail.com'
 	},
 	educationDetails: [
 		{
@@ -217,5 +219,5 @@ export const siteConfig = {
 			"title": "NIRD RISC 2018 - 1st Prize",
 			"subtitle": "Issued by National Institute of Rural Development and Panchayati Raj (NIRDPR) in Aug 2018"
 		}
-	]
+	],
 };

@@ -4,15 +4,44 @@ import NextImage from "next/image";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 import Link from "next/link";
 import { Image } from "@nextui-org/image";
-import { Card, CardFooter, CardHeader } from "@nextui-org/card";
+import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 
 export default function Home() {
 	return (
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block w-full text-center justify-center">
-				<h1 className="text-2xl">Hey there, I am </h1>
-				<h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
+				<Card
+					isBlurred
+					className="border-none bg-background/60 dark:bg-default-100/50 w-full"
+					shadow="sm"
+				>
+					<CardBody>
+						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+							<div className="relative col-span-6 md:col-span-4">
+								<Image
+									alt="Album cover"
+									className="object-cover"
+									height={200}
+									shadow="md"
+									src="/images/me.jpg"
+									width="100%"
+								/>
+							</div>
+
+							<div className="flex flex-col col-span-6 md:col-span-8">
+								<div className="flex justify-between items-start">
+									<div className="flex flex-col gap-0">
+										<div className="inline-block w-full text-center justify-center">
+											<h1 className="text-2xl">Hey there, I am </h1>
+											<h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</CardBody>
+				</Card>
 			</div>
 
 			{/* ABOUT SECTION */}
@@ -144,6 +173,20 @@ export default function Home() {
 				</div>
 			</div>
 
+
+			{/* CONTACT ME */}
+			<div className="mt-10 w-full">
+				<h1 className='text-3xl font-bold py-10'>CONTACT ME</h1>
+				<div className="grid md:grid-cols-3">
+					{Object.keys(siteConfig.links).map((item, index) => (
+						<Accordion key={index + 1}>
+							<AccordionItem aria-label="title" title={item.toUpperCase()}>
+								{siteConfig.links[item as keyof typeof siteConfig.links]}
+							</AccordionItem>
+						</Accordion>
+					))}
+				</div>
+			</div>
 
 		</section>
 	);
