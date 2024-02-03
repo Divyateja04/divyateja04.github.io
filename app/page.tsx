@@ -1,6 +1,5 @@
 "use client"
 import { siteConfig } from "@/config/site";
-import { title } from "@/components/primitives";
 import NextImage from "next/image";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 import Link from "next/link";
@@ -11,18 +10,32 @@ export default function Home() {
 		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
 			<div className="inline-block w-full text-center justify-center">
 				<h1 className="text-2xl">Hey there, I am </h1>
-				<h1 className={title({ color: "violet" })}>DIVYATEJA PASUPULETI&nbsp;</h1>
+				<h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
 			</div>
 
 			{/* ABOUT SECTION */}
 			<div className="mt-10 w-full">
 				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
 				<div className="text-xl">
-					I&apos;m an avid techie and a full stack developer from Hyderabad, India.
-					I am a student from India and am deeply passionate about Computer Science and wish
-					to pursue a career in it. From my very childhood, I used to be passionate about
-					computers, how they work, and how we can program them to make our lives better.
+					I'm currently a 3rd-year undergraduate student in India, and my passion for
+					Computer Science has been with me since my childhood. Growing up, I was always
+					fascinated by computers - understanding how they work and the potential they have
+					when we program them to improve our lives.
 					<br />
+					<br />
+					My childhood interests in programming, robotics, and electronics have led me to pursue
+					my undergraduate studies in Computer Science and Engineering. I was always that guy who wanted to
+					use his skills to make the world a better place for the socieT.
+					<br />
+					<br />
+					Being in my third year now, I've delved into various aspects of computer science. From learning
+					different programming languages to exploring algorithms and data structures, my academic
+					journey has been a mix of theory and hands-on experience. I've taken on projects and coursework
+					that allowed me to apply my knowledge to real-world problems, honing my practical skills along the way.
+					<br />
+					<br />
+					When I'm not coding, you can find me reading books, watching movies, or building robots. You can find my
+					notes at <Link href="https://handoutsforyou.vercel.app" className="underline">Notes @ BPHC</Link>
 				</div>
 
 				{/* SKILLS */}
