@@ -2,7 +2,7 @@ import * as React from "react";
 import { IconSvgProps } from "@/types";
 
 export const LinkedInIcon: React.FC<IconSvgProps> = ({
-	size = 24,
+	size = 20,
 	width,
 	height,
 	...props
