@@ -86,7 +86,7 @@ export default function Home() {
 						// 	<div className="text-lg">{item.description}</div>
 						// 	<NextImage src={item.imageSrc} alt={item.title} className="mt-4 rounded-md shadow-md" width={0} height={0} layout="responsive" />
 						// </div>
-						<Card isFooterBlurred className="h-[350px] m-6">
+						<Card isFooterBlurred className="h-[350px] m-6" key={index} >
 							<CardHeader className="absolute z-10 top-1 flex-col items-start">
 								<h4 className="text-white/90 font-medium text-xl">{item.title}</h4>
 							</CardHeader>
