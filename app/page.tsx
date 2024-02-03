@@ -79,7 +79,7 @@ export default function Home() {
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
 				<div className="grid md:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
-						<Card className="relative group h-[300px] m-6 overflow-hidden">
+						<Card key={index} className="relative group h-[300px] m-6 overflow-hidden">
 							<CardHeader className="absolute z-10 top-1 flex-col items-start">
 								<h4 className="text-white/90 font-medium text-xl">{item.title}</h4>
 							</CardHeader>
