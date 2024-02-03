@@ -20,7 +20,6 @@ export const siteConfig = {
 	links: {
 		github: "https://github.com/divyateja04",
 		twitter: "https://twitter.com/thedonutcat",
-		discord: "https://discord.gg/9b6yyZKmH4",
 	},
 	educationDetails: [
 		{
@@ -174,11 +173,11 @@ export const siteConfig = {
 			imageSrc: '/images/waviour.jpg', // Replace with the actual path
 			description: 'A device that saves people from drowning in the ocean',
 		},
-		{
-			title: 'Prototype for a Wind-driven Power System',
-			imageSrc: '/images/windproject.png', // Replace with the actual path
-			description: 'In-house science exhibition winner :)',
-		},
+		// {
+		// 	title: 'Prototype for a Wind-driven Power System',
+		// 	imageSrc: '/images/windproject.png', // Replace with the actual path
+		// 	description: 'In-house science exhibition winner :)',
+		// },
 		{
 			title: 'Leap Motion Controller Based Robot',
 			imageSrc: '/images/leap.png', // Replace with the actual path
