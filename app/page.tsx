@@ -28,12 +28,6 @@ export default function Home() {
 					use his skills to make the world a better place for the socieT.
 					<br />
 					<br />
-					Being in my third year now, I have delved into various aspects of computer science. From learning
-					different programming languages to exploring algorithms and data structures, my academic
-					journey has been a mix of theory and hands-on experience. I have taken on projects and coursework
-					that allowed me to apply my knowledge to real-world problems, honing my practical skills along the way.
-					<br />
-					<br />
 					When I am not coding, you can find me reading books, watching movies, or building robots. You can find my
 					notes at <Link href="https://handoutsforyou.vercel.app" className="underline">Notes @ BPHC</Link>
 				</div>
