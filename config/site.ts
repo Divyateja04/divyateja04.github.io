@@ -68,16 +68,42 @@ export const siteConfig = {
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
 			post: "Undergraduate Teaching Assistant - General Biology",
-			date: "Nov 2023 - Present · 4 mos",
+			date: "Nov 2023 - Present",
 			description: "As part of this, I made a secure and user friendly quiz app system that detects malpractices and auto submits the user's responses with the ability to detect tab changes and window changes during the quiz itself ensuring the integrity of the assessment process. It is being used by over 500 students, on a daily basis for crucial exit tests across various courses at our campus.",
 		},
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
-			post: "Tech Lead - Student Welfare Division",
-			date: "Jul 2022 - Present · 1 yr 8 mos",
+			post: "Undergraduate Teaching Assistant - BITS Pilani Website",
+			date: "Aug 2023 - Jan 2024",
+			description: "Contributed to the main BITS Pilani Website and its maintenance in order to streamline work for webmaster at BITS Pilani, Hyderabad Campus",
+		},
+		{
+			organization: "Indian Institute of Remote Sensing (IIRS), ISRO",
+			post: "Summer Internship",
+			date: "May 2023 - Jul 2023",
+			description: "Characterizing the Spatial-temporal Patterns of Floods in the Assam Valley: Insights from Rainfall Analysis by focusing on acquiring, pre-processing data, and employing thresholding and image segmentation algorithms to identify and delineate flooded areas.\nTechStack: Google Earth Engine, Python, JavaScript"
+		},
+		{
+			organization: "UiT- The Arctic University of Norway",
+			post: "Web Developer",
+			date: "Aug 2022 - Sep 2022",
+			description: "Curated and organized about 50 papers and publications from Google Scholar using web scraping. This data was used to provide accurate and up-to-date information about the laboratory's research activities, and this was hosted on a website made using Next JS."
+		},
+		{
+			organization: "Teenage Concerns",
+			post: "Web Developer",
+			date: "Dec 2021 - Feb 2022",
+			description: "Developed an application that allowed anonymous users to get assigned a mentor, providing a supportive platform for discussing life issues, depression, and related concerns creating a secure and personalized environment for users seeking guidance and providing anonymous chat support between them."
+		}
+	],
+	porData: [
+		{
+			organization: "BITS Pilani, Hyderabad Campus",
+			post: "Technical Lead - Student Welfare Division",
+			date: "Jul 2022 - Present",
 			description: `The SWD Nucleus manages services like giving migration certificates, 
 			ID Cards, Fee Reports and conducts Mess and Hostel Allotment based on student's personal
-			preferences. I also Introduced a  for the college festivals, resulting in a 50% reduction in waiting time for attendees
+			preferences. I also Introduced a SaaS based QR System for the college festivals, resulting in a 50% reduction in waiting time for attendees
 			. I also made a wing allotment software that takes input from all the students and then matches them to the wing of their
 			choice based on a priority order, and if there's no wing of that size available, then
 			the wing can be allotted either in a larger wing or the wing will be split into smaller places
@@ -85,34 +111,10 @@ export const siteConfig = {
 		},
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
-			post: "Undergraduate Teaching Assistant - BITS Pilani Website",
-			date: "Aug 2023 - Jan 2024 · 6 mos",
-			description: "Contributed to the main BITS Pilani Website and its maintenance in order to streamline work for webmaster at BITS Pilani, Hyderabad Campus",
-		},
-		{
-			organization: "Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO)",
-			post: "Summer Internship",
-			date: "May 2023 - Jul 2023 · 3 mos",
-			description: "Characterizing the Spatial-temporal Patterns of Floods in the Assam Valley: Insights from Rainfall Analysis by focusing on acquiring, pre-processing data, and employing thresholding and image segmentation algorithms to identify and delineate flooded areas.\nTechStack: Google Earth Engine, Python, JavaScript"
-		},
-		{
-			organization: "Automation And Robotics Club - BITS Pilani, Hyderabad Campus",
-			post: "Joint Secretary",
-			date: "Jul 2022 - May 2023 · 11 mos",
+			post: "Joint Secretary, Automation And Robotics Club",
+			date: "Jul 2022 - May 2023",
 			description: "Responsible for managing club projects, inventory, and tech expos and held a workshop during the technical fest, which had 100+ registrations."
 		},
-		{
-			organization: "UiT- The Arctic University of Norway",
-			post: "Web Developer",
-			date: "Aug 2022 - Sep 2022 · 2 mos",
-			description: "Curated and organized about 50 papers and publications from Google Scholar using web scraping. This data was used to provide accurate and up-to-date information about the laboratory's research activities, and this was hosted on a website made using Next JS."
-		},
-		{
-			organization: "Teenage Concerns",
-			post: "Web Developer",
-			date: "Dec 2021 - Feb 2022 · 3 mos",
-			description: "Developed an application that allowed anonymous users to get assigned a mentor, providing a supportive platform for discussing life issues, depression, and related concerns creating a secure and personalized environment for users seeking guidance and providing anonymous chat support between them."
-		}
 	],
 	webProjectsData: [
 		{

@@ -93,7 +93,25 @@ export default function Home() {
 							key={index + 1}
 							aria-label="Accordion"
 							title={item.post}
-							subtitle={item.organization}>
+							subtitle={item.organization + " | " + item.date}
+						>
+							{item.description}
+						</AccordionItem>
+					))}
+				</Accordion>
+			</div>
+
+			{/* POSITIONS OF RESPONSIBILITY SECTION */}
+			<div className="mt-10 w-full" id="experience">
+				<h1 className='text-3xl font-bold py-10'>POSITIONS OF RESPONSIBILITY</h1>
+				<Accordion>
+					{siteConfig.porData.map((item, index) => (
+						<AccordionItem
+							key={index + 1}
+							aria-label="Accordion"
+							title={item.post}
+							subtitle={item.organization + " | " + item.date}
+						>
 							{item.description}
 						</AccordionItem>
 					))}
