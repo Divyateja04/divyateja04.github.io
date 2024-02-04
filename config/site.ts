@@ -49,6 +49,7 @@ export const siteConfig = {
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg", invert: false },
+		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg", invert: false },
