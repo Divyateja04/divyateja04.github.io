@@ -108,8 +108,8 @@ export default function Home() {
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
 				<div className="grid md:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
-						<Card key={index} className="relative group h-[300px] m-6 overflow-hidden">
-							<CardHeader className="absolute z-10 top-1 flex-col items-start">
+						<Card key={index} className="relative group h-80 m-6 overflow-hidden">
+							<CardHeader className="absolute z-10 flex-col items-start backdrop-blur-lg">
 								<h4 className="text-white font-bold text-xl">{item.title}</h4>
 							</CardHeader>
 							<Image
@@ -121,7 +121,7 @@ export default function Home() {
 							<CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 transition-transform translate-y-full group-hover:translate-y-0">
 								<div className="flex flex-grow gap-2 items-center">
 									<div className="flex flex-col">
-										<p className="text-xl text-white/80">{item.description}</p>
+										<p className="text-md md:text-lg text-white/80">{item.description}</p>
 									</div>
 								</div>
 								<Button radius="full" size="md" onClick={() => window.open(item.link)}>
@@ -138,7 +138,7 @@ export default function Home() {
 				<div className="grid md:grid-cols-2">
 					{siteConfig.roboticsProjects.map((item, index) => (
 						<Card key={index} className="relative group h-[300px] m-6 overflow-hidden">
-							<CardHeader className="absolute z-10 top-1 flex-col items-start">
+							<CardHeader className="absolute z-10 flex-col items-start backdrop-blur-lg">
 								<h4 className="text-white font-bold text-xl">{item.title}</h4>
 							</CardHeader>
 							<Image
@@ -150,7 +150,7 @@ export default function Home() {
 							<CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 transition-transform translate-y-full group-hover:translate-y-0">
 								<div className="flex flex-grow gap-2 items-center">
 									<div className="flex flex-col">
-										<p className="text-xl text-white/90">{item.description}</p>
+										<p className="text-md md:text-lg text-white/90">{item.description}</p>
 									</div>
 								</div>
 							</CardFooter>

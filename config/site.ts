@@ -69,7 +69,7 @@ export const siteConfig = {
 			organization: "BITS Pilani, Hyderabad Campus",
 			post: "Undergraduate Teaching Assistant - General Biology",
 			date: "Nov 2023 - Present · 4 mos",
-			description: "As part of this, I made a secure and user-friendly quiz app interface that detects malpractices and auto submits the user's response. It can detect tab changes and window changes as well as split-screen usage.",
+			description: "As part of this, I made a secure and user friendly quiz app system that detects malpractices and auto submits the user's responses with the ability to detect tab changes and window changes during the quiz itself ensuring the integrity of the assessment process. It is being used by over 500 students, on a daily basis for crucial exit tests across various courses at our campus.",
 		},
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
@@ -124,7 +124,7 @@ export const siteConfig = {
 		{
 			title: 'Handouts For You.',
 			imageSrc: '/images/handouts.png', // Replace with the actual path
-			description: 'Handouts search engine for BITS Pilani Hyderabad Campus',
+			description: 'A dedicated website to facilitate the accessibility of almost 2000+ course handouts, notes, resources, and questions related to the campus, and contains a course review system, notes sharing system handling 1000+ requests per day.',
 			link: 'https://handoutsforyou.vercel.app',
 		},
 		{
