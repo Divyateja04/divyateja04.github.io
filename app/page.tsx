@@ -1,11 +1,11 @@
 "use client"
 import { siteConfig } from "@/config/site";
-import NextImage from "next/image";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
-import Link from "next/link";
+import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image";
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
+import { GithubIcon, LinkedInIcon, TwitterIcon } from "@/components/icons";
 
 export default function Home() {
 	return (
@@ -48,15 +48,12 @@ export default function Home() {
 			<div className="mt-10 w-full" id="about">
 				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
 				<div className="text-xl">
-					I am currently a 3rd-year undergraduate student in India, and my passion for
-					Computer Science has been with me since my childhood. Growing up, I was always
-					fascinated by computers - understanding how they work and the potential they have
-					when we program them to improve our lives.
+					Hi there, I am currently a 3rd-year undergraduate student in India. My childhood interests in programming, robotics, and electronics have led me to pursue
+					my undergraduate studies in Computer Science.
 					<br />
 					<br />
-					My childhood interests in programming, robotics, and electronics have led me to pursue
-					my undergraduate studies in Computer Science and Engineering. I was always that guy who wanted to
-					use his skills to make the world a better place for the socieT.
+					I am passionate about learning new technologies and
+					am always looking for new opportunities to learn and grow.
 					<br />
 					<br />
 					When I am not coding, you can find me reading books, watching movies, or building robots. You can find my
@@ -176,16 +173,22 @@ export default function Home() {
 
 			{/* CONTACT ME */}
 			<div className="mt-10 w-full">
-				<h1 className='text-3xl font-bold py-10'>CONTACT ME</h1>
-				<Accordion >
-					{Object.keys(siteConfig.links).map((item, index) => (
-						<AccordionItem key={index + 1} aria-label="title" title={item.toUpperCase()}>
-							{siteConfig.links[item as keyof typeof siteConfig.links]}
-						</AccordionItem>
-					))}
-				</Accordion>
+				<>
+					<h1 className='text-3xl font-bold pt-10 pb-5'>CONTACT ME</h1>
+					<div className="grid md:grid-cols-3 w-full">
+						<Link isExternal className="p-2" href={siteConfig.links.twitter} aria-label="Twitter">
+							<TwitterIcon className="text-default-500" /> <p className="text-lg mx-4 text-default-500">Twitter</p>
+						</Link>
+						<Link isExternal className="p-2" href={siteConfig.links.github} aria-label="Github">
+							<GithubIcon className="text-default-500" /> <p className="text-lg mx-4 text-default-500">Github</p>
+						</Link>
+						<Link isExternal className="p-2" href={siteConfig.links.linkedin} aria-label="Github">
+							<LinkedInIcon className="text-default-500" /> <p className="text-lg mx-4 text-default-500">LinkedIn</p>
+						</Link>
+					</div>
+				</>
 			</div>
 
-		</section>
+		</section >
 	);
 }
