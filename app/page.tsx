@@ -13,7 +13,7 @@ export default function Home() {
 			<div className="inline-block w-full text-center justify-center">
 				<Card
 					isBlurred
-					className="border-none bg-background/60 dark:bg-default-100/50 w-full"
+					className="border-none bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] backdrop-blur-md w-full"
 					shadow="sm"
 				>
 					<CardBody>
@@ -34,7 +34,7 @@ export default function Home() {
 									<div className="flex flex-col gap-0">
 										<div className="inline-block w-full text-center justify-center">
 											<h1 className="text-2xl">Hey there, I am </h1>
-											<h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
+											<h1 className="bg-clip-text text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
 										</div>
 									</div>
 								</div>
@@ -177,15 +177,13 @@ export default function Home() {
 			{/* CONTACT ME */}
 			<div className="mt-10 w-full">
 				<h1 className='text-3xl font-bold py-10'>CONTACT ME</h1>
-				<div className="grid md:grid-cols-3">
+				<Accordion >
 					{Object.keys(siteConfig.links).map((item, index) => (
-						<Accordion key={index + 1}>
-							<AccordionItem aria-label="title" title={item.toUpperCase()}>
-								{siteConfig.links[item as keyof typeof siteConfig.links]}
-							</AccordionItem>
-						</Accordion>
+						<AccordionItem key={index + 1} aria-label="title" title={item.toUpperCase()}>
+							{siteConfig.links[item as keyof typeof siteConfig.links]}
+						</AccordionItem>
 					))}
-				</div>
+				</Accordion>
 			</div>
 
 		</section>
