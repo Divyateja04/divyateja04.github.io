@@ -13,7 +13,7 @@ export default function Home() {
 			<div className="inline-block w-full text-center justify-center">
 				<Card
 					isBlurred
-					className="border-none bg-gradient-to-b from-[#FF1CF7] to-[#b249f8] backdrop-blur-md w-full"
+					className="border border-pink-600 backdrop-blur-md w-full"
 					shadow="sm"
 				>
 					<CardBody>
@@ -76,7 +76,7 @@ export default function Home() {
 			<div className="mt-10 w-full" id="education">
 				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
 				{siteConfig.educationDetails.map((item, index) => (
-					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-400">
+					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
 						<div className="text-3xl font-bold mb-2">{item.college}</div>
 						<div className="text-lg mb-2">{item.subtitle}</div>
 						<div className="text-lg">{item.year}</div>
