@@ -118,6 +118,23 @@ export default function Home() {
 				</Accordion>
 			</div>
 
+			{/* PUBLICATIONS SECTION */}
+			<div className="mt-10 w-full" id="publications">
+				<h1 className='text-3xl font-bold py-10'>PUBLICATIONS</h1>
+				<Accordion>
+					{siteConfig.publicationsData.map((item, index) => (
+						<AccordionItem
+							key={index + 1}
+							aria-label="Accordion"
+							title={item.title}
+							subtitle={item.date + " | " + item.details}
+						>
+							{item.desc}
+						</AccordionItem>
+					))}
+				</Accordion>
+			</div>
+
 			{/* PROJECTS SECTION */}
 			<div className="mt-10 w-full" id="projects">
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>

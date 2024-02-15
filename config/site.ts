@@ -223,4 +223,12 @@ export const siteConfig = {
 			"subtitle": "Issued by National Institute of Rural Development and Panchayati Raj (NIRDPR) in Aug 2018"
 		}
 	],
+	publicationsData: [
+		{
+			title: "Remotely operated autonomous life saving buoy system with Image Recognition Technology",
+			details: "Indian Patent Application No. 202041027662",
+			date: "Filing Date: June 29th, 2020",
+			desc: "The disclosure proposes an autonomous life-saving buoy system that comprises a lifebuoy, a remote server, and an autonomous drone. The remote server tracks the victim's location and shares their images and location with rescue personnel or devices via a mobile application, facilitating timely rescue operations during natural calamities.The autonomous drone is configured to trace the victim person if the rescue personnel is unable to trace him or her",
+		}
+	]
 };
