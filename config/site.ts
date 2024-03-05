@@ -119,6 +119,12 @@ export const siteConfig = {
 	],
 	webProjectsData: [
 		{
+			title: 'Geddit. Get it done.',
+			imageSrc: '/images/geddit.png', // Replace with the actual path
+			description: 'A service based app which helps you request pickups and deliveries on campus.',
+			link: 'https://quizapp-ten-swart.vercel.app/',
+		},
+		{
 			title: 'Quiz App.',
 			imageSrc: '/images/quizapp.png', // Replace with the actual path
 			description: 'A secure and user-friendly quiz app interface that detects malpractices and auto-submits the user\'s response. It can detect tab changes and window changes as well.',
