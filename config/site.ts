@@ -53,7 +53,7 @@ export const siteConfig = {
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg", invert: false },
-		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg", invert: false },
+		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg", invert: true },
@@ -68,7 +68,7 @@ export const siteConfig = {
 	experienceData: [
 		{
 			organization: "BITS Pilani, Hyderabad Campus",
-			post: "Undergraduate Teaching Assistant - General Biology",
+			post: "Undergraduate Teaching Assistant - Quiz App BPHC",
 			date: "Nov 2023 - Present",
 			description: "As part of this, I made a secure and user friendly quiz app system that detects malpractices and auto submits the user's responses with the ability to detect tab changes and window changes during the quiz itself ensuring the integrity of the assessment process. It is being used by over 500 students, on a daily basis for crucial exit tests across various courses at our campus.",
 		},
@@ -122,18 +122,18 @@ export const siteConfig = {
 			title: 'Geddit. Get it done.',
 			imageSrc: '/images/geddit.png', // Replace with the actual path
 			description: 'A service based app which helps you request pickups and deliveries on campus.',
-			link: 'https://quizapp-ten-swart.vercel.app/',
+			link: 'https://gedditdone.vercel.app/',
 		},
 		{
 			title: 'Quiz App.',
 			imageSrc: '/images/quizapp.png', // Replace with the actual path
 			description: 'A secure and user-friendly quiz app interface that detects malpractices and auto-submits the user\'s response. It can detect tab changes and window changes as well.',
-			link: 'https://quizapp-ten-swart.vercel.app/',
+			link: 'https://quizappbphc.vercel.app/',
 		},
 		{
 			title: 'Handouts For You.',
 			imageSrc: '/images/handouts.png', // Replace with the actual path
-			description: 'A dedicated website to facilitate the accessibility of almost 2000+ course handouts, notes, resources, and questions related to the campus, and contains a course review system, notes sharing system handling 1000+ requests per day.',
+			description: 'A dedicated website to facilitate the accessibility of almost 2000+ course handouts, notes, resources, and contains a course review system, notes sharing system handling 1000+ requests per day.',
 			link: 'https://handoutsforyou.vercel.app',
 		},
 		{

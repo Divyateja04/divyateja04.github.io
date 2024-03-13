@@ -77,9 +77,8 @@ export default function Home() {
 				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
 				{siteConfig.educationDetails.map((item, index) => (
 					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
-						<div className="text-3xl font-bold mb-2">{item.college}</div>
+						<div className="text-3xl font-bold mb-2">{item.year} | {item.college}</div>
 						<div className="text-lg mb-2">{item.subtitle}</div>
-						<div className="text-lg">{item.year}</div>
 					</div>
 				))}
 			</div>
