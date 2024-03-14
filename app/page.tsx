@@ -20,7 +20,7 @@ export default function Home() {
 						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
 							<div className="relative col-span-6 md:col-span-4">
 								<Image
-									alt="Album cover"
+									alt="cover"
 									className="object-cover"
 									height={200}
 									shadow="md"
@@ -48,8 +48,9 @@ export default function Home() {
 			<div className="mt-10 w-full" id="about">
 				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
 				<div className="text-xl">
-					Hi there, I am currently a 3rd-year undergraduate student in India. My childhood interests in programming, robotics, and electronics have led me to pursue
-					my undergraduate studies in Computer Science.
+					Hi there, I am currently a 3rd-year undergraduate student in India.
+					My childhood interests in programming, robotics, and electronics have
+					led me to pursue my undergraduate studies in Computer Science.
 					<br />
 					<br />
 					I am passionate about learning new technologies and
@@ -65,22 +66,18 @@ export default function Home() {
 				<div className="w-full flex items-center justify-center">
 					<div className="flex flex-wrap justify-center gap-4 max-w-xl">
 						{siteConfig.skillsData.map((item, index) => (
-							<Image alt="logo" className={`${item.invert && "dark:invert"} h-10 w-10 m-2 transform transition-transform hover:scale-150`} src={item.href} key={index} width={0} height={0} />
+							<Image
+								alt="logo"
+								className={`${item.invert && "dark:invert"} h-10 w-10 m-2 transform transition-transform hover:scale-150`}
+								src={item.href}
+								key={index}
+								width={0}
+								height={0}
+								radius="none" />
 						))}
 					</div>
 				</div>
 
-			</div>
-
-			{/* EDUCATION SECTION */}
-			<div className="mt-10 w-full" id="education">
-				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
-				{siteConfig.educationDetails.map((item, index) => (
-					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
-						<div className="text-3xl font-bold mb-2">{item.year} | {item.college}</div>
-						<div className="text-lg mb-2">{item.subtitle}</div>
-					</div>
-				))}
 			</div>
 
 			{/* EXPERIENCE SECTION */}
@@ -98,6 +95,17 @@ export default function Home() {
 						</AccordionItem>
 					))}
 				</Accordion>
+			</div>
+
+			{/* EDUCATION SECTION */}
+			<div className="mt-10 w-full" id="education">
+				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
+				{siteConfig.educationDetails.map((item, index) => (
+					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
+						<div className="text-3xl font-bold mb-2">{item.year} | {item.college}</div>
+						<div className="text-lg mb-2">{item.subtitle}</div>
+					</div>
+				))}
 			</div>
 
 			{/* POSITIONS OF RESPONSIBILITY SECTION */}

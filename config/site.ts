@@ -42,7 +42,7 @@ export const siteConfig = {
 	],
 	skillsData: [
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg", invert: false },
-		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg", invert: false },
+		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg", invert: false },
@@ -56,6 +56,7 @@ export const siteConfig = {
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg", invert: false },
+		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original-wordmark.svg", invert: true },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg", invert: false },
 		{ href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg", invert: false },
@@ -120,55 +121,55 @@ export const siteConfig = {
 	webProjectsData: [
 		{
 			title: 'Geddit. Get it done.',
-			imageSrc: '/images/geddit.png', // Replace with the actual path
+			imageSrc: '/images/geddit.png',
 			description: 'A service based app which helps you request pickups and deliveries on campus.',
 			link: 'https://gedditdone.vercel.app/',
 		},
 		{
 			title: 'Quiz App.',
-			imageSrc: '/images/quizapp.png', // Replace with the actual path
+			imageSrc: '/images/quizapp.png',
 			description: 'A secure and user-friendly quiz app interface that detects malpractices and auto-submits the user\'s response. It can detect tab changes and window changes as well.',
 			link: 'https://quizappbphc.vercel.app/',
 		},
 		{
 			title: 'Handouts For You.',
-			imageSrc: '/images/handouts.png', // Replace with the actual path
+			imageSrc: '/images/handouts.png',
 			description: 'A dedicated website to facilitate the accessibility of almost 2000+ course handouts, notes, resources, and contains a course review system, notes sharing system handling 1000+ requests per day.',
 			link: 'https://handoutsforyou.vercel.app',
 		},
 		{
 			title: 'Oopsie',
-			imageSrc: '/images/oopsie.png',// Replace with the actual path
+			imageSrc: '/images/oopsie.png',
 			description: 'A ready-to-scale, web application that supported placing orders, order status, inventory management, Admin, Manager, and User functionality using and authentication using Spring Secure',
 			link: 'https://github.com/Divyateja04/Oopsie_BITS_CSF213',
 		},
 		{
 			title: 'Trackie',
-			imageSrc: '/images/trackie.png', // Replace with the actual path
+			imageSrc: '/images/trackie.png',
 			description: 'An Expense and Eval Tracker',
 			link: 'https://github.com/Divyateja04/Trackie',
 		},
 		{
 			title: 'Teenage Concerns',
-			imageSrc: '/images/teenageconcerns.png', // Replace with the actual path
+			imageSrc: '/images/teenageconcerns.png',
 			description: 'This project lets anonymous users register and get a mentor assigned to them with whom they can talk about anything they want, say life issues, depression, etc.',
 			link: 'https://github.com/Divyateja04/TeenageConcerns-API-GraphQL',
 		},
 		{
 			title: 'UMO ASI Website',
-			imageSrc: '/images/umoasi.png',// Replace with the actual path
+			imageSrc: '/images/umoasi.png',
 			description: 'Website made for UMO ASI - The Arctic University of Norway',
 			link: 'https://www.asilab.eu/',
 		},
 		{
 			title: 'ARC Website',
-			imageSrc: '/images/arcbphc.png', // Replace with the actual path
+			imageSrc: '/images/arcbphc.png',
 			description: 'A blog website, made using NextJS + Tailwind and hosted on Vercel at ARC-BPHC',
 			link: 'https://arcbphc.vercel.app/',
 		},
 		{
 			title: 'Verbamaximus Website 2022/23',
-			imageSrc: '/images/vmwebsite.png', // Replace with the actual path
+			imageSrc: '/images/vmwebsite.png',
 			description: 'Website for a literary fest of BPHC',
 			link: 'https://verbamaximus23.vercel.app/',
 		}
@@ -176,22 +177,22 @@ export const siteConfig = {
 	roboticsProjects: [
 		{
 			title: 'Aimbulance',
-			imageSrc: '/images/aimbulance.jpg', // Replace with the actual path
+			imageSrc: '/images/aimbulance.jpg',
 			description: 'An Automatic Ambulance system that uses drones and security camera systems to automatically identify accidents and report them to the nearest hospital and also fill out forms for them',
 		},
 		{
 			title: 'Waviour',
-			imageSrc: '/images/waviour.jpg', // Replace with the actual path
+			imageSrc: '/images/waviour.jpg',
 			description: 'A device that saves people from drowning in the ocean',
 		},
 		// {
 		// 	title: 'Prototype for a Wind-driven Power System',
-		// 	imageSrc: '/images/windproject.png', // Replace with the actual path
+		// 	imageSrc: '/images/windproject.png', 
 		// 	description: 'In-house science exhibition winner :)',
 		// },
 		{
 			title: 'Leap Motion Controller Based Robot',
-			imageSrc: '/images/leap.png', // Replace with the actual path
+			imageSrc: '/images/leap.png',
 			description: 'Innovative RC car-esque robot which is controlled with the motions of one’s hand alone',
 		},
 	],
