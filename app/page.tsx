@@ -6,6 +6,7 @@ import { Image } from "@nextui-org/image";
 import { Card, CardBody, CardFooter, CardHeader } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 import { GithubIcon, LinkedInIcon, TwitterIcon } from "@/components/icons";
+import { orbitron } from "@/config/fonts";
 
 export default function Home() {
 	return (
@@ -13,30 +14,24 @@ export default function Home() {
 			<div className="inline-block w-full text-center justify-center">
 				<Card
 					isBlurred
-					className="border border-pink-600 backdrop-blur-md w-full"
+					className="backdrop-blur-md w-full"
 					shadow="sm"
 				>
 					<CardBody>
-						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center animate-appearance-in">
-							<div className="relative col-span-6 md:col-span-4">
+						<div className="grid grid-cols-6 gap-6 md:gap-4 items-center justify-center animate-appearance-in">
+							<div className="relative col-span-6">
 								<Image
 									alt="cover"
-									className="object-cover"
+									className="border-4 border-pink-500 object-cover md:h-1/4 md:w-1/4 rounded-full mx-auto"
 									height={200}
 									shadow="md"
 									src="/images/me.jpg"
 									width="100%"
 								/>
-							</div>
 
-							<div className="flex flex-col col-span-6 md:col-span-8">
-								<div className="flex justify-between items-start">
-									<div className="flex flex-col">
-										<div className="inline-block w-full text-left justify-center">
-											<h1 className="text-2xl my-3">&gt; Hey there, I am </h1>
-											<h1 className="text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
-											<h1 className="text-2xl my-3">&gt; Nice to meet you! </h1>
-										</div>
+								<div className="flex flex-col">
+									<div className="inline-block w-full text-center justify-center">
+										<h1 className={`text-3xl md:text-7xl ${orbitron.className}`}>DIVYATEJA PASUPULETI&nbsp;</h1>
 									</div>
 								</div>
 							</div>
@@ -47,7 +42,7 @@ export default function Home() {
 
 			{/* ABOUT SECTION */}
 			<div className="mt-10 w-full" id="about">
-				<h1 className='text-3xl font-bold py-10'>ABOUT</h1>
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}>ABOUT</h1>
 				<div className="text-xl">
 					Hi there, I am currently a 3rd-year undergraduate student in India.
 					My childhood interests in programming, robotics, and electronics have
@@ -61,7 +56,7 @@ export default function Home() {
 				</div>
 
 				{/* SKILLS */}
-				<h1 className='text-3xl font-bold py-10'>SKILLS</h1>
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}>SKILLS</h1>
 				<div className="w-full flex items-center justify-center">
 					<div className="flex flex-wrap justify-center gap-4 max-w-xl">
 						{siteConfig.skillsData.map((item, index) => (
@@ -77,11 +72,12 @@ export default function Home() {
 					</div>
 				</div>
 
-			</div>
+			</div >
 
 			{/* EXPERIENCE SECTION */}
-			<div className="mt-10 w-full" id="experience">
-				<h1 className='text-3xl font-bold py-10'>EXPERIENCE</h1>
+			< div className="mt-10 w-full" id="experience" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`
+				}> EXPERIENCE</h1 >
 				<Accordion>
 					{siteConfig.experienceData.map((item, index) => (
 						<AccordionItem
@@ -94,22 +90,24 @@ export default function Home() {
 						</AccordionItem>
 					))}
 				</Accordion>
-			</div>
+			</div >
 
 			{/* EDUCATION SECTION */}
-			<div className="mt-10 w-full" id="education">
-				<h1 className='text-3xl font-bold py-10'>EDUCATION</h1>
-				{siteConfig.educationDetails.map((item, index) => (
-					<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
-						<div className="text-3xl font-bold mb-2">{item.year} | {item.college}</div>
-						<div className="text-lg mb-2">{item.subtitle}</div>
-					</div>
-				))}
-			</div>
+			< div className="mt-10 w-full" id="education" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}> EDUCATION</h1 >
+				{
+					siteConfig.educationDetails.map((item, index) => (
+						<div key={index} className="border p-6 rounded-md shadow-md mb-8 border-pink-600">
+							<div className="text-3xl font-bold mb-2">{item.year} | {item.college}</div>
+							<div className="text-lg mb-2">{item.subtitle}</div>
+						</div>
+					))
+				}
+			</div >
 
 			{/* POSITIONS OF RESPONSIBILITY SECTION */}
-			<div className="mt-10 w-full" id="experience">
-				<h1 className='text-3xl font-bold py-10'>POSITIONS OF RESPONSIBILITY</h1>
+			< div className="mt-10 w-full" id="experience" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}> POSITIONS OF RESPONSIBILITY</h1 >
 				<Accordion>
 					{siteConfig.porData.map((item, index) => (
 						<AccordionItem
@@ -122,11 +120,11 @@ export default function Home() {
 						</AccordionItem>
 					))}
 				</Accordion>
-			</div>
+			</div >
 
 			{/* PUBLICATIONS SECTION */}
-			<div className="mt-10 w-full" id="publications">
-				<h1 className='text-3xl font-bold py-10'>PUBLICATIONS</h1>
+			< div className="mt-10 w-full" id="publications" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}> PUBLICATIONS</h1 >
 				<Accordion>
 					{siteConfig.publicationsData.map((item, index) => (
 						<AccordionItem
@@ -139,11 +137,11 @@ export default function Home() {
 						</AccordionItem>
 					))}
 				</Accordion>
-			</div>
+			</div >
 
 			{/* PROJECTS SECTION */}
-			<div className="mt-10 w-full" id="projects">
-				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
+			< div className="mt-10 w-full" id="projects" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}> PROJECTS</h1 >
 				<div className="grid lg:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
 						<Card key={index} className="relative group h-80 m-6 overflow-hidden">
@@ -169,10 +167,10 @@ export default function Home() {
 						</Card>
 					))}
 				</div>
-			</div>
+			</div >
 
 			<div className="mt-10 w-full">
-				<h1 className='text-3xl font-bold py-10'>ROBOTICS PROJECTS</h1>
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}>ROBOTICS PROJECTS</h1>
 				<div className="grid md:grid-cols-2">
 					{siteConfig.roboticsProjects.map((item, index) => (
 						<Card key={index} className="relative group h-[300px] m-6 overflow-hidden">
@@ -195,11 +193,11 @@ export default function Home() {
 						</Card>
 					))}
 				</div>
-			</div>
+			</div >
 
 			{/* ACHIEVEMENTS */}
-			<div className="mt-10 w-full">
-				<h1 className='text-3xl font-bold py-10'>ACHIEVEMENTS</h1>
+			< div className="mt-10 w-full" >
+				<h1 className={`text-3xl font-bold py-10 ${orbitron.className}`}> ACHIEVEMENTS</h1 >
 				<div className="grid md:grid-cols-3">
 					{siteConfig.acheievementsData.map((item, index) => (
 						<Accordion key={index + 1}>
@@ -209,11 +207,11 @@ export default function Home() {
 						</Accordion>
 					))}
 				</div>
-			</div>
+			</div >
 
 
 			{/* CONTACT ME */}
-			<div className="mt-10 w-full">
+			< div className="mt-10 w-full" >
 				<>
 					<h1 className='text-3xl font-bold pt-10 pb-5'>CONTACT ME</h1>
 					<div className="grid md:grid-cols-3 w-full">
@@ -228,7 +226,7 @@ export default function Home() {
 						</Link>
 					</div>
 				</>
-			</div>
+			</div >
 
 		</section >
 	);
