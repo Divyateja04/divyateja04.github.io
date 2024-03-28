@@ -17,7 +17,7 @@ export default function Home() {
 					shadow="sm"
 				>
 					<CardBody>
-						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center">
+						<div className="grid grid-cols-6 md:grid-cols-12 gap-6 md:gap-4 items-center justify-center animate-appearance-in">
 							<div className="relative col-span-6 md:col-span-4">
 								<Image
 									alt="cover"
@@ -31,10 +31,11 @@ export default function Home() {
 
 							<div className="flex flex-col col-span-6 md:col-span-8">
 								<div className="flex justify-between items-start">
-									<div className="flex flex-col gap-0">
-										<div className="inline-block w-full text-center justify-center">
-											<h1 className="text-2xl">Hey there, I am </h1>
-											<h1 className="bg-clip-text text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
+									<div className="flex flex-col">
+										<div className="inline-block w-full text-left justify-center">
+											<h1 className="text-2xl my-3">&gt; Hey there, I am </h1>
+											<h1 className="text-5xl md:text-7xl">DIVYATEJA PASUPULETI&nbsp;</h1>
+											<h1 className="text-2xl my-3">&gt; Nice to meet you! </h1>
 										</div>
 									</div>
 								</div>
@@ -51,8 +52,6 @@ export default function Home() {
 					Hi there, I am currently a 3rd-year undergraduate student in India.
 					My childhood interests in programming, robotics, and electronics have
 					led me to pursue my undergraduate studies in Computer Science.
-					<br />
-					<br />
 					I am passionate about learning new technologies and
 					am always looking for new opportunities to learn and grow.
 					<br />
@@ -145,7 +144,7 @@ export default function Home() {
 			{/* PROJECTS SECTION */}
 			<div className="mt-10 w-full" id="projects">
 				<h1 className='text-3xl font-bold py-10'>PROJECTS</h1>
-				<div className="grid md:grid-cols-2">
+				<div className="grid lg:grid-cols-2">
 					{siteConfig.webProjectsData.map((item, index) => (
 						<Card key={index} className="relative group h-80 m-6 overflow-hidden">
 							<CardHeader className="absolute z-10 flex-col items-start backdrop-blur-lg">
